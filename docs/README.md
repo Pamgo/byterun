@@ -16,9 +16,9 @@ Java知识学习总结+JDK源码阅读笔记
 
 ## 开源小项目
 
-- [boot-actuator](https://github.com/a870439570/boot-actuator):   基于Spring Boot 实现的监控远程服务器多个Java应用JVM性能图形化工具
-- [blog-sharon](https://github.com/a870439570/blog-sharon):   一款简单微信小程序个人博客
-- [Mongodb-WeAdmin](https://github.com/a870439570/Mongodb-WeAdmin):  SpringBoot版Mongodb工具
+- [weiyunpan](https://github.com/Pamgo/weiyunpan):   微云盘，高仿百度云；使用技术jdbc/servlet/jquery    MVC三层架构；同时封装了大量通用工具
+- [vshop](https://github.com/Pamgo/vshop):   无限极分销系统（dev)
+- [gostudy](https://github.com/Pamgo/gostudy):  go语言学习
 
 
 
