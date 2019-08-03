@@ -19,7 +19,8 @@
 
 ## 使用方式
 
-```/**
+```
+/**
     * 构建RuntimeSchema,用于序列化、反序列化Seckill对象
     */
    public class MyRuntimeSchema {
@@ -52,7 +53,8 @@
 对seckill进行序列化
    byte[] goodsBytes = ProtostuffIOUtil.toByteArray(seckill, MyRuntimeSchema.getInstance().getGoodsRuntimeSchema(),
                     LinkedBuffer.allocate(LinkedBuffer.DEFAULT_BUFFER_SIZE));
-            jedis.set(seckillGoodsKey.getBytes(), goodsBytes);```
+            jedis.set(seckillGoodsKey.getBytes(), goodsBytes);
+
 ```
 反序列化（redis）
 ```
