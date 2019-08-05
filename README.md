@@ -3,7 +3,6 @@
 - (笔记来源：https://github.com/a870439570/interview-docs)
 Java知识学习总结+JDK源码阅读笔记
 
-
 <!-- [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-924715723-yellowgreen.svg)](https://jq.qq.com/?_wv=1027&k=5PIRvFq) -->
 [![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://www.baidu.com)
 [![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://www.baidu.com)
@@ -14,7 +13,7 @@ Java知识学习总结+JDK源码阅读笔记
 - CSDN: https://www.baidu.com
 - 简书: https://www.baidu.com
 - 掘金: https://www.baidu.com
-- 个人博客：https://www.baidu.com
+- 个人博客：https://pamgo.github.io/byterun
 
 ## 开源小项目
 
@@ -22,7 +21,13 @@ Java知识学习总结+JDK源码阅读笔记
 - [vshop](https://github.com/Pamgo/vshop):   无限极分销系统（dev)
 - [gostudy](https://github.com/Pamgo/gostudy):  go语言学习
 
+## 小工具
 
+- [Protostuff序列化和反序列化](2019/Protostuff序列化和反序列化.md)
+
+## RabbitMQ
+
+- [RabbitMQ架构](rabbitmq/概念.md)
 
 ## JAVA 
 - [深入理解JVM](2019/深入理解JVM.md)

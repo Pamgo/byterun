@@ -25,7 +25,9 @@ Java知识学习总结+JDK源码阅读笔记
 
 - [Protostuff序列化和反序列化](2019/Protostuff序列化和反序列化.md)
 
+## RabbitMQ
 
+- [RabbitMQ架构](rabbitmq/概念.md)
 
 ## JAVA 
 - [深入理解JVM](2019/深入理解JVM.md)
