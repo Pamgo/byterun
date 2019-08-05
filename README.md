@@ -50,6 +50,7 @@ Java知识学习总结+JDK源码阅读笔记
 - [SpringBoot Admin监控集成](Spring/SpringBootAdmin.md)
 - [SpringBoot集成ElasticSearch6.2版本](https://blog.csdn.net/u010391342/article/details/82153709)
 - [SpringBoot集成Kafka](https://blog.csdn.net/u010391342/article/details/81430402)
+- [如何优雅关闭 Spring Boot 应用](https://mp.weixin.qq.com/s/l9nSknaB9i_5cCNT-mbnsw?tdsourcetag=s_pcqq_aiomsg)
 - [SpringCloud集成eureka注册中心访问权限](https://blog.csdn.net/u010391342/article/details/83086519)
 - [SpringCloud集成Consul实现服务注册中心](https://blog.csdn.net/u010391342/article/details/83082801)
 - [SpringCloud服务链路追踪](Spring/Springcloud服务链路追踪.md)
