@@ -30,6 +30,10 @@ Java知识学习总结+JDK源码阅读笔记
 - [RabbitMQ架构](rabbitmq/概念.md)
 - [RabbitMQ死信队列处理超时未支付的订单](https://mp.weixin.qq.com/s?__biz=MzI5MzkwMzQ0Mg==&mid=2247483951&idx=1&sn=ad8e404d8187f8de4cc071f9904f453a&chksm=ec6a4f12db1dc604e18184f4d31c65709505fe89e9778d10fda3953d29a210497b87790fa63e&mpshare=1&scene=23&srcid=&sharer_sharetime=1564887486289&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 
+## Redis
+
+- [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
+
 ## JAVA 
 - [深入理解JVM](2019/深入理解JVM.md)
 - [jvm监控命令](JVM/jvm监控命令.md)
