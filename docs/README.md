@@ -70,7 +70,7 @@ Java知识学习总结+JDK源码阅读笔记
 - [Spring security （一）架构框架-Component、Service、Filter分析](https://my.oschina.net/ccwwlx/blog/3114077)
 - [Spring Security（二）--WebSecurityConfigurer配置以及filter顺序](https://my.oschina.net/ccwwlx/blog/3115010)
 - [Spring Security 从入门到进阶系列教程](http://www.spring4all.com/article/428)
-
+- [SpringBootSecurity详解学习](http://www.spring4all.com/common/user/10161)
 
 ## 分布式
 - [ELK分布式日志平台搭建](https://blog.csdn.net/u010391342/article/details/82895385)
