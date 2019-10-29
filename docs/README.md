@@ -51,7 +51,7 @@ Java知识学习总结+JDK源码阅读笔记
 
 
 
-## SpringBoot/SpringCloud/Spring
+## SpringBoot/SpringCloud/Spring/SpringSecurity/Oauth2
 
 ### SpringBoot
 - [SpringBoot2集成Sharding-JDBC实现分库分表](2019/SpringBoot2集成Sharding-JDBC实现分库分表.md)
@@ -79,11 +79,12 @@ Java知识学习总结+JDK源码阅读笔记
 - [Spring Aop](Spring/aop.md)
 - [Spring Aop](Spring/aop.md)
 
-## SpringSecurity/Oauth2
+### SpringSecurity/Oauth2
 - [Spring security （一）架构框架-Component、Service、Filter分析](https://my.oschina.net/ccwwlx/blog/3114077)
 - [Spring Security（二）--WebSecurityConfigurer配置以及filter顺序](https://my.oschina.net/ccwwlx/blog/3115010)
 - [Spring Security 从入门到进阶系列教程](http://www.spring4all.com/article/428)
 - [SpringBootSecurity详解学习](http://www.spring4all.com/common/user/10161)
+- [Spring Cloud OAuth2.0 微服务中配置 Jwt Token 签名/验证](https://www.cnblogs.com/Irving/p/9430460.html)
 
 ## 分布式
 - [ELK分布式日志平台搭建](https://blog.csdn.net/u010391342/article/details/82895385)
