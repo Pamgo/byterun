@@ -51,6 +51,8 @@ Java知识学习总结+JDK源码阅读笔记
 
 
 ## SpringBoot/SpringCloud/Spring
+
+### SpringBoot
 - [SpringBoot2集成Sharding-JDBC实现分库分表](2019/SpringBoot2集成Sharding-JDBC实现分库分表.md)
 - [SpringBoot自定义一个starter](2019/SpringBoot自定义一个starter.md  )
 - [SpringBoot集成prometheus+Grafana监控](https://blog.qinxuewu.club/2019/04/02/spring-xi-lie/springboot-ji-cheng-prometheus-grafana-jian-kong)
@@ -58,14 +60,22 @@ Java知识学习总结+JDK源码阅读笔记
 - [SpringBoot集成ElasticSearch6.2版本](https://blog.csdn.net/u010391342/article/details/82153709)
 - [SpringBoot集成Kafka](https://blog.csdn.net/u010391342/article/details/81430402)
 - [如何优雅关闭 Spring Boot 应用](https://mp.weixin.qq.com/s/l9nSknaB9i_5cCNT-mbnsw?tdsourcetag=s_pcqq_aiomsg)
+
+### SpringCloud
+
 - [SpringCloud集成eureka注册中心访问权限](https://blog.csdn.net/u010391342/article/details/83086519)
 - [SpringCloud集成Consul实现服务注册中心](https://blog.csdn.net/u010391342/article/details/83082801)
 - [SpringCloud服务链路追踪](Spring/Springcloud服务链路追踪.md)
 - [SpringCloud Alibaba系列(一)服务注册](https://blog.csdn.net/u010391342/article/details/86655712)
 - [SpringCloud Alibaba系列(二)Sentinel应用的限流管理](https://blog.csdn.net/u010391342/article/details/86678637)
 - [SpringCloud Alibaba系列(三)Nacos Config配置中心](https://blog.csdn.net/u010391342/article/details/86702084)
+- [spring cloud gateway集成hystrix实战](https://www.jianshu.com/p/81b0059dbd98)
+
+### Spring
+
 - [Spring集成dubbo实现服务降级](Spring/Spring集成dubbo集群实现服务降级.md)
 - [SpringMVC生命周期](Spring/SpringMvc生命周期.md)
+- [Spring Aop](Spring/aop.md)
 - [Spring Aop](Spring/aop.md)
 
 ## SpringSecurity/Oauth2
