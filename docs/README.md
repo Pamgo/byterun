@@ -128,6 +128,7 @@
 
 ## Nginx系列
 - [Nginx 入门到实战](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247488002&idx=2&sn=31457adbe7a9870bc7e5f02a37de1ee0&chksm=fa496db3cd3ee4a57aa73d803c4fbfb778e27361aa8a2af0fb30e125e530cdc872dc2d6c808c&mpshare=1&scene=23&srcid=1020zsm31xzq6kPjOZBT0zgF&sharer_sharetime=1571538825034&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
+- [实用的 Nginx 配置生成工具](https://nginxconfig.io/)
 
 ## 知识点总结
 - [多线程和JVM知识总结](2019/多线程和JVM知识总结.md)
