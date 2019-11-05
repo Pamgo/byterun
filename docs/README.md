@@ -60,6 +60,7 @@
 - [SpringBoot集成ElasticSearch6.2版本](https://blog.csdn.net/u010391342/article/details/82153709)
 - [SpringBoot集成Kafka](https://blog.csdn.net/u010391342/article/details/81430402)
 - [如何优雅关闭 Spring Boot 应用](https://mp.weixin.qq.com/s/l9nSknaB9i_5cCNT-mbnsw?tdsourcetag=s_pcqq_aiomsg)
+- [Spring Boot使用log4j2](https://mp.weixin.qq.com/s/v0kbYtgT3mhK3ffN_Sekfw)
 
 ### SpringCloud
 
