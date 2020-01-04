@@ -5,7 +5,8 @@
 
 
 ### 步骤一：pom文件引入redis依赖包
-``` 
+```xml
+
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-redis</artifactId>
@@ -14,7 +15,7 @@
 ```
 
 ### 步骤二：配置文件加入redis配置信息
-``` 
+```properties
 
 ## Redis 配置
 ## Redis数据库索引（默认为0）
@@ -31,7 +32,7 @@ spring.redis.password=
 
 ### 演示RedisTemplate的增删改
 controller
-``` 
+```java 
 
 @Api(description = "用户接口")
 @RestController
@@ -81,7 +82,8 @@ public class UserController {
 
 service
 
-``` 
+```java
+
 @Service
 public class UserService {
 
@@ -179,7 +181,8 @@ nameq\x00~\x00\x04xpsr\x00\x0ejava.util.Datehj\x81\x01KYt\x19\x03\x00\x00xpw\b\x
 \xf8xt\x00\x04un59"
 ```
 
-``` 
+```java
+
 @Configuration
 public class RedisConfiguration {
     /**
@@ -222,7 +225,8 @@ public class RedisConfiguration {
 3. flushdb 清空redis的旧数据，因为改了序列化，老数据以及不能兼容了，必须清空旧数据
 4. 往redis 初始化100条数据
 5. 用 keys *   命令查看所有key
-``` 
+```shell
+ 
 127.0.0.1:6379> keys *
   1) "user:187"
   2) "user:117"
