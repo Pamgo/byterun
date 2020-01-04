@@ -29,7 +29,7 @@ $ make
 ./redis-cli -h {host} -p {port} 方式连接，然后所有的操作都是在交互的方式实现
 ``` 
 [root@node2 redis-5.0.7]# ./src/redis-cli
-127.0.0.1:6379> set user1 agan
+127.0.0.1:6379> set user1 byterun
 OK
 127.0.0.1:6379> get user1
 "agan"
@@ -61,10 +61,10 @@ daemonize yes
 第三步：测试体验
 ``` 
 [root@node2 redis-5.0.7]# ./src/redis-cli
-127.0.0.1:6379> set user1 agan
+127.0.0.1:6379> set user1 byterun
 OK
 127.0.0.1:6379> get user1
-"agan"
+"byterun"
 127.0.0.1:6379>
 ```
 

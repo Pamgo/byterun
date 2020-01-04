@@ -1,6 +1,6 @@
 # 有三种类型：字符串，整数，浮点。
 例子：把java对象转换为json，然后作为字符串存储
-'{"id":1,"username":"agan01","password":"123456","sex":1}'
+'{"id":1,"username":"byterun","password":"123456","sex":1}'
 
 
 
@@ -26,35 +26,35 @@ PX millsecond：设置过期时间，过期时间精确为毫秒
 
 SET：命令
 ``` 
-127.0.0.1:6379> set user1 '{"id":1,"username":"agan01","password":"123456","sex":1}'
+127.0.0.1:6379> set user1 '{"id":1,"username":"byterun","password":"123456","sex":1}'
 OK
 127.0.0.1:6379> get user1
-"{\"id\":1,\"username\":\"agan01\",\"password\":\"123456\",\"sex\":1}"
+"{\"id\":1,\"username\":\"byterun\",\"password\":\"123456\",\"sex\":1}"
 ```
 NX：表示key不存在才设置，如果存在则返回NULL
 ``` 
-127.0.0.1:6379> set user1 '{"id":1,"username":"agan01","password":"123456","sex":1}' NX
+127.0.0.1:6379> set user1 '{"id":1,"username":"byterun","password":"123456","sex":1}' NX
 (nil)
 因为user1已经存在，所以设置失败，返回nil
 ```
 
 XX：表示key存在时才设置，如果不存在则返回NULL
 ``` 
-127.0.0.1:6379> set user1 '{"id":2,"username":"agan01","password":"123456","sex":1}' XX
+127.0.0.1:6379> set user1 '{"id":2,"username":"byterun","password":"123456","sex":1}' XX
 OK
 127.0.0.1:6379> get user1
-"{\"id\":2,\"username\":\"agan01\",\"password\":\"123456\",\"sex\":1}"
+"{\"id\":2,\"username\":\"byterun\",\"password\":\"123456\",\"sex\":1}"
 ```
 
 EX seconds：设置过期时间，过期时间精确为秒
 采用ttl查看剩余过期时间
 ``` 
-127.0.0.1:6379> set user1 '{"id":2,"username":"agan01","password":"123456","sex":1}' EX 600
+127.0.0.1:6379> set user1 '{"id":2,"username":"byterun","password":"123456","sex":1}' EX 600
 OK
 ```
 PX millsecond：设置过期时间，过期时间精确为毫秒
 ```  
-127.0.0.1:6379> set user1 '{"id":2,"username":"agan01","password":"123456","sex":1}' PX 600000
+127.0.0.1:6379> set user1 '{"id":2,"username":"byterun","password":"123456","sex":1}' PX 600000
 OK
 ```
 
@@ -92,10 +92,10 @@ OK
 语法：GETSET key value
 所有参数为必选参数，获取指定key的value，并设置key的值为新值value
 ```
-127.0.0.1:6379> getset user1 agan1
-"{\"id\":2,\"username\":\"agan01\",\"password\":\"123456\",\"sex\":1}"
+127.0.0.1:6379> getset user1 byterun1
+"{\"id\":2,\"username\":\"byterun\",\"password\":\"123456\",\"sex\":1}"
 127.0.0.1:6379> get user1
-"agan1"
+"byterun1"
 ```
 
 ##SETRANGE
@@ -105,10 +105,10 @@ OK
 ``` 
 127.0.0.1:6379> set user 123456
 OK
-127.0.0.1:6379> setrange user 2 agan
+127.0.0.1:6379> setrange user 2 byterun
 (integer) 6
 127.0.0.1:6379> get user
-"12agan"
+"12byterun"
 ```
 ## GETRANGE
 作用：截取字符串
@@ -117,11 +117,11 @@ OK
 start、end可以为负数，如果为负数则反向取区间
 ``` 
 127.0.0.1:6379> get user
-"12agan"
+"12byterun"
 127.0.0.1:6379> getrange user 1 3
-"2ag"
+"2by"
 127.0.0.1:6379> getrange user 0 3
-"12ag"
+"12by"
 ```
 
 
