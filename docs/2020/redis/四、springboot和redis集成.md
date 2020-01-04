@@ -32,6 +32,7 @@ spring.redis.password=
 
 ### 演示RedisTemplate的增删改
 controller
+
 ```java 
 
 @Api(description = "用户接口")
@@ -140,13 +141,15 @@ public class UserService {
     }
 
 }
+
 ```
 ### 步骤体验效果：
 用http://127.0.0.1:9090/swagger-ui.html# 体验
 问题1：进redis的数据必须序列化Serializable
 
 问题2：如果连接不了redis
-```  
+
+```shell
 vi redis.conf
 bind 0.0.0.0
 ```
@@ -155,12 +158,14 @@ bind 0.0.0.0
 为什么要重写Redis序列化方式，改为Json呢？  
 因为RedisTemplate默认使用的是JdkSerializationRedisSerializer，会出现2个问题：  
 1. 被序列化的对象必须实现Serializable接口
-``` 
+
+```java 
 @Table(name = "users")
 public class User implements  Serializable {
 ```  
+
 2. 被序列化会出现乱码,导致value值可读性差. 
-``` 
+```shell 
 127.0.0.1:6379> keys *
   1) "\xac\xed\x00\x05t\x00\auser:62"
   2) "\xac\xed\x00\x05t\x00\auser:65"
@@ -182,7 +187,6 @@ nameq\x00~\x00\x04xpsr\x00\x0ejava.util.Datehj\x81\x01KYt\x19\x03\x00\x00xpw\b\x
 ```
 
 ```java
-
 @Configuration
 public class RedisConfiguration {
     /**
@@ -225,8 +229,8 @@ public class RedisConfiguration {
 3. flushdb 清空redis的旧数据，因为改了序列化，老数据以及不能兼容了，必须清空旧数据
 4. 往redis 初始化100条数据
 5. 用 keys *   命令查看所有key
+
 ```shell
- 
 127.0.0.1:6379> keys *
   1) "user:187"
   2) "user:117"
