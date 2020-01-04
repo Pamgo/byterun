@@ -31,8 +31,8 @@
 
 ## Redis
 ### Redis笔记
-- [Redis安装](2020/redis/redis安装.md)
-- [Redis string入门](2020/redis/string入门.md)
+- [Redis安装](2020/redis安装.md)
+- [Redis string入门](2020/string入门.md)
 ### Redis补充
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [Redis从入门到精通，至少要看看这篇！](https://mp.weixin.qq.com/s?__biz=MzIxMTE0ODU5NQ==&mid=2650238539&idx=1&sn=ba1b0443d0e86fe585499d70af6c4012&chksm=8f5a0417b82d8d019c847e4547d8d2880ee4c4c611e5e6cdf254bbd76c74bb8ec5021cc5d769&mpshare=1&scene=23&srcid=&sharer_sharetime=1571538850095&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
