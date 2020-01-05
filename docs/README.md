@@ -1,6 +1,6 @@
 # 简介
 - 访问地址：[byterun-doc](https://pamgo.github.io/byterun)
-- 笔记属于好文收集以及记录
+- 笔记属于个人学习总结笔记以及好文收集
 
 <!-- [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-924715723-yellowgreen.svg)](https://jq.qq.com/?_wv=1027&k=5PIRvFq) -->
 [![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://www.baidu.com)
