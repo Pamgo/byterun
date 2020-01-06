@@ -1,7 +1,6 @@
 # spring boot 和redis集成
 
-技术栈：springboot mybatis swagger ,如果不懂的同学，请百度一下，
-看老师以前的课程 https://study.163.com/course/courseMain.htm?courseId=1004348001&share=2&shareId=1016671292
+技术栈：springboot mybatis swagger
 
 
 ### 步骤一：pom文件引入redis依赖包

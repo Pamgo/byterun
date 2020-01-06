@@ -226,10 +226,10 @@ public User findUserById(Integer id){
 
 以上方法被调用时，先从缓存中读取数据，如果缓存没有找到数据，再执行方法体，最后把返回值添加到缓存中。
 
-注意：@Cacheable 一般是配合@CacheConfig一起使用的
-例如上文的@CacheConfig(cacheNames = { "user" }) 和 @Cacheable(key="#id")一起使用时。
-调用方法传入id=100,那redis对应的key=user::100 ,value通过采用GenericJackson2JsonRedisSerializer序列化为json
-调用方法传入id=200,那redis对应的key=user::200 ,value通过采用GenericJackson2JsonRedisSerializer序列化为json
+注意：```@Cacheable``` 一般是配合```@CacheConfig```一起使用的
+例如上文的```@CacheConfig(cacheNames = { "user" })``` 和 ```@Cacheable(key="#id")```一起使用时。
+调用方法传入id=100,那redis对应的key=user::100 ,value通过采用```GenericJackson2JsonRedisSerializer```序列化为json
+调用方法传入id=200,那redis对应的key=user::200 ,value通过采用```GenericJackson2JsonRedisSerializer```序列化为json
 
 #### @CachePut
 @CachePut是方法级别的注解，用于更新缓存。

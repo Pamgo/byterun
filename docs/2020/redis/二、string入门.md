@@ -58,19 +58,20 @@ PX millsecond：设置过期时间，过期时间精确为毫秒
 OK
 ```
 
-##SETNX
+## SETNX
 语法：SETNX key value
 所有参数为必选参数,设置一对key value，如果key存在，则设置失败，等同于 SET key value NX
-##SETEX
+## SETEX
 语法：SETEX key expire value
 所有参数为必选参数，设置一对 key value，并设过期时间,单位为秒，等同于 SET key value EX expire
-##PSETEX
+## PSETEX
 语法：PSETEX key expire value
 所有参数为必选参数，设置一对 key value，并设过期时间,单位为毫秒，等同于 SET key value PX expire
 
 
 
-##MSET
+## MSET
+
 作用：批量设值
 语法：MSET key1 value1 [key2 value2 key3 value3 ...]
 所有参数为必选，key、value对至少为一对。该命令功能是设置多对key-value值。
@@ -98,7 +99,7 @@ OK
 "byterun1"
 ```
 
-##SETRANGE
+## SETRANGE
 作用：为某个key，修改偏移量offset后的值为value
 语法：SETRANGE key offset value
 所有参数为必选参数，设置指定key，偏移量offset后的值为value，影响范围为value的长度， offset不能小于0
@@ -146,9 +147,9 @@ OK
 "123a"
 ```
 
-#数字操作
+# 数字操作
 
-##INCR
+## INCR
 作用：计数器
 语法： INCR key
 所有参数为必选，指定key做加1操作。指定key对应的值必须为整型，否则返回错误,操作成功后返回操作后的值
@@ -164,7 +165,7 @@ OK
 127.0.0.1:6379> get product01
 "3"
 ```
-##DECR
+## DECR
 语法： DECR key
 所有参数为必选，指定key做减1操作。指定key对应的值必须为整型，否则返回错误,操作成功后返回操作后的值。为DECR的逆操作。
 ``` 
@@ -177,7 +178,7 @@ OK
 127.0.0.1:6379> get product01
 "1"
 ```
-##INCRBY
+## INCRBY
 作用：加法
 语法：INCRBY key data
 所有参数为必选参数，指定key做加data操作,指定key对应的值和data必须为整型，否则返回错误,操作成功后返回操作后的值
