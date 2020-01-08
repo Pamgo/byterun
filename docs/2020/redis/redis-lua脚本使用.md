@@ -43,21 +43,21 @@ else
 end
 ```
 ### 执行lua脚本
-把以上代码保存为compareAndSet.lua user:101 , agan101
+把以上代码保存为compareAndSet.lua user:101 , byterun101
 
 ```cmd
-./redis-cli  --eval compareAndSet.lua user:101 , agan101
+./redis-cli  --eval compareAndSet.lua user:101 , byterun101
 ```
 1. --eval 告诉redis-cli 要执行后面的lua脚本，compareAndSet.lua脚本的目录位置
 2. user:101 是redis要操作的key，在lua脚本中用KEYS[1]就能拿到
-3. "," 逗号后面的agan101 是lua的参数，lua脚本中用ARGV[1]就能拿到
+3. "," 逗号后面的byterun101 是lua的参数，lua脚本中用ARGV[1]就能拿到
 注意： ","两边的空格不能省略，否则报错
 
 执行效果如下：
 ```shell 
-[root@node2 src]# ./redis-cli  --eval compareAndSet.lua user:101 , agan101
+[root@node2 src]# ./redis-cli  --eval compareAndSet.lua user:101 , byterun101
 (integer) 1  //第一次执行，redis没找到，就把值设置进去
-[root@node2 src]# ./redis-cli  --eval compareAndSet.lua user:101 , agan101
+[root@node2 src]# ./redis-cli  --eval compareAndSet.lua user:101 , byterun101
 (integer) 0  //第二次执行，旧值和新值相同，返回0
 
 ```
