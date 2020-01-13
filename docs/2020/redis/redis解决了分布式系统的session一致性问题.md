@@ -224,7 +224,7 @@ docker rm -f session-nginx
 
 - 启动nginx容器
 
-``` 
+```shell 
 docker  run \
 -d \
 -p 8080:80 \
@@ -238,21 +238,19 @@ nginx
 -v的意思就是把目标目录，映射到容器文件目录，例如：把容器的/var/log/nginx目录映射到主机的/data/volume/nginx/logs目录
 
 
-
 ### 六、剖析SpringBoot+Nginx的分布式Session不一致性
 #### 步骤1：启动SpringBoot用户登录服务
 把Springboot用户登录服务，启动2个服务，端口分别为9090和 9091
 
 #### 步骤2：用IE体验效果
 
-http://192.168.1.138:8080/user/login?username=agan1&password=agan1
-http://192.168.1.138:8080/user/find/agan1
+http://192.168.1.138:8080/user/login?username=byterun1&password=byterun1
+http://192.168.1.138:8080/user/find/byterun1
 
 结论：
 1. 用户第一次访问Nginx，请求落到了服务器A，服务器A生成了一个sessionId,并保存在用户的cookie中。
 2. 用户第二次再来访问Nginx，它这次把cookie里面的sessionId加入http的请求头中，这时请求落到了服务器B，服务器B发现没有找到sessionId,于是创建了一个新的sessionId并保存在用户的cookie中。
 以上2个步骤，在分布式系统中，必将导致session错乱。
-
 
 
 ### 七、案例实战：SpringSession+redis解决分布式session不一致性问题
@@ -270,7 +268,7 @@ http://192.168.1.138:8080/user/find/agan1
 </dependency>
 ```
 #### 步骤2：修改配置文件
-``` 
+```properties
 
 # 为某个包目录下 设置日志
 logging.level.com.agan=debug
@@ -297,7 +295,7 @@ spring.redis.password=
 ### 八、剖析SpringSession的redis原理
 
 #### 步骤1：分析SpringSession的redis数据结构
-``` 
+```shell 
 127.0.0.1:6379> keys *
 1) "spring:session:expirations:1578227700000"
 2) "spring:session:sessions:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
@@ -306,7 +304,7 @@ spring.redis.password=
 共同点：3个key都是以spring:session:开头的，代表了SpringSession的redis数据。
 "spring:session:sessions:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
 
-``` 
+```shell
 127.0.0.1:6379> type "spring:session:sessions:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
 hash
 ```
@@ -318,7 +316,7 @@ hash
 
 // sesson的属性，存储了user对象
 3) "sessionAttr:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
-4) "\xac\xed\x00\x05sr\x00\x1ecom.agan.redis.controller.User\x16\"_m\x1b\xa0W\x7f\x02\x00\x03I\x00\x02idL\x00\bpasswordt\x00\x12Ljava/lang/String;L\x00\busernameq\x00~\x00\x01xp\x00\x00\x00\x01t\x00\x05agan1q\x00~\x00\x03"
+4) "\xac\xed\x00\x05sr\x00\x1ecom.agan.redis.controller.User\x16\"_m\x1b\xa0W\x7f\x02\x00\x03I\x00\x02idL\x00\bpasswordt\x00\x12Ljava/lang/String;L\x00\busernameq\x00~\x00\x01xp\x00\x00\x00\x01t\x00\x05byterun1q\x00~\x00\x03"
 
 // session的创建时间
 5) "creationTime"
@@ -340,7 +338,7 @@ hash
 ##### 定时删除
 "spring:session:expirations:1578227700000"
 
-``` 
+```shell
 127.0.0.1:6379> type "spring:session:expirations:1578228240000"
 set
 127.0.0.1:6379> smembers "spring:session:expirations:1578228240000"
@@ -352,14 +350,14 @@ springsession 定时（1分钟）轮询，删除spring:session:expirations:[?] �
 springsesion 定时检测超过2020-01-05 20:44:00:000 就删除spring:session:expirations:1578228240000的members的值
 sessionId=5eddb9a3-5b1e-4bdd-a289-394b6d42388e
 即删除
-``` 
+```shell 
 1) "spring:session:expirations:1578228240000"
 2) "spring:session:sessions:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
 3) "spring:session:sessions:expires:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
 ```
 ##### 惰性删除
 spring:session:sessions:expires:5eddb9a3-5b1e-4bdd-a289-394b6d42388e
-``` 
+```shell 
 127.0.0.1:6379> type spring:session:sessions:expires:5eddb9a3-5b1e-4bdd-a289-394b6d42388e
 string
 127.0.0.1:6379> get spring:session:sessions:expires:5eddb9a3-5b1e-4bdd-a289-394b6d42388e
@@ -378,7 +376,7 @@ spring:session:sessions:expires:5eddb9a3-5b1e-4bdd-a289-394b6d42388e的时候
 
 判断 ttl spring:session:sessions:expires:5eddb9a3-5b1e-4bdd-a289-394b6d42388e是否过期，过期就直接删除 
 
-``` 
+```shell 
 1) "spring:session:expirations:1578228240000"
 2) "spring:session:sessions:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
 3) "spring:session:sessions:expires:5eddb9a3-5b1e-4bdd-a289-394b6d42388e"
