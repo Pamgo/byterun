@@ -161,8 +161,9 @@
 - [Zookeeper面试专题](其它/Zookeeper面试专题.md)
 - [redis面试专题.md](其它/redis面试.md)
 - [spring面试专题.md](其它/spring.md)
-
-
+- [一文详解微服务架构](https://mp.weixin.qq.com/s/64RA_Mck1MZ2Ek9RxTzghQ)
+- [HashMap 源码赏析 JDK8](https://www.cnblogs.com/hello-shf/p/12168181.html)
+- [ConcurrentHashMap源码解析 JDK8](https://www.cnblogs.com/hello-shf/p/12183263.html)
 ## 随笔
 - [docsify一个神奇的文档生成工具](其它/docsify.md)
 - [Linux服务命令](其它/Linxu服务命令.md)
