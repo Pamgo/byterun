@@ -45,6 +45,7 @@
 - [redis-lua语法](2020/redis/redis-lua语法.md)
 - [redis-lua脚本使用](2020/redis/redis-lua脚本使用.md)
 - [redis+lua实现黑客防刷攻击](2020/redis/redis+lua实现黑客防刷攻击.md)
+
 #### 微博解剖redis - hash
 - [redis的hash数据结构](2020/redis/redis的hash数据结构.md)
 - [京东双11购物车](2020/redis/京东双11购物车.md)
@@ -57,6 +58,10 @@
 - [基于redis淘宝评价黑名单校验器](2020/redis/基于redis淘宝评价黑名单校验器.md)
 - [京东京豆抽奖实战](2020/redis/京东京豆抽奖实战.md)
 - [支付宝天天抽奖实战](2020/redis/支付宝天天抽奖实战.md)
+- [基于Redis的高并发随机展示](2020/redis/基于Redis的高并发随机展示.md)
+- [微博点赞实战](2020/redis/微博点赞实战.md)
+- [基于Redis的微博关注与粉丝](2020/redis/基于Redis的微博关注与粉丝.md)
+
 ### Redis补充
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [Redis从入门到精通，至少要看看这篇！](https://mp.weixin.qq.com/s?__biz=MzIxMTE0ODU5NQ==&mid=2650238539&idx=1&sn=ba1b0443d0e86fe585499d70af6c4012&chksm=8f5a0417b82d8d019c847e4547d8d2880ee4c4c611e5e6cdf254bbd76c74bb8ec5021cc5d769&mpshare=1&scene=23&srcid=&sharer_sharetime=1571538850095&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
