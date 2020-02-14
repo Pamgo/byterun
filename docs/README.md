@@ -1,7 +1,9 @@
 # 简介
 - 访问地址：[byterun-doc](https://pamgo.github.io/byterun)
 - 笔记属于个人学习总结笔记以及好文收集
+
 [URL=https://info.flagcounter.com/zyTg][IMG]https://s11.flagcounter.com/count2/zyTg/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/[/IMG][/URL]
+
 <!-- [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-924715723-yellowgreen.svg)](https://jq.qq.com/?_wv=1027&k=5PIRvFq) -->
 [![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://www.baidu.com)
 [![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://www.baidu.com)
