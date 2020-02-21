@@ -80,6 +80,8 @@
 - [(深入理解JUC)ConcurrentLinkedQueue源码](https://blog.qinxuewu.club/2019/03/29/java/shen-ru-li-jie-concurrentlinkedqueue-yuan-ma)
 - [volatile的内存语义](https://blog.qinxuewu.club/2019/04/05/java/volatile-de-nei-cun-yu-yi)
 
+### JDK8方法讲解
+- [Map 的 getOrDefault()，putIfAbsent() 和 computeIfAbsent() 三个方法](https://segmentfault.com/a/1190000018276448)
 
 
 ## SpringBoot/SpringCloud/Spring/SpringSecurity/Oauth2
