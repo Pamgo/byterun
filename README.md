@@ -1,10 +1,13 @@
 # 简介
 - 访问地址：[byterun-doc](https://pamgo.github.io/byterun)
 - 笔记属于个人学习总结笔记以及好文收集
-
 <!-- [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-924715723-yellowgreen.svg)](https://jq.qq.com/?_wv=1027&k=5PIRvFq) -->
 [![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://www.baidu.com)
 [![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://www.baidu.com)
+
+## pp❤️yy(泰安小孙艺珍)
+
+- 发泄地:[by](https://pamgo.github.io/byterun)
 
 ## 关于
 
@@ -31,11 +34,32 @@
 
 ## Redis
 ### Redis笔记
+- [Redis配置文件说明](2020/redis/redis配置文件说明.md)
 - [Redis安装](2020/redis/一、redis安装.md)
 - [Redis string入门](2020/redis/二、string入门.md)
 - [采用redis生成全局id](2020/redis/三、采用redis生成全局id.md)
 - [Spring boot 和redis集成](2020/redis/四、springboot和redis集成.md)
 - [结合springcache](2020/redis/五、结合springcache.md)
+- [微信文章的阅读量PV](2020/redis/微信文章的阅读量PV.md)
+- [redis-lua语法](2020/redis/redis-lua语法.md)
+- [redis-lua脚本使用](2020/redis/redis-lua脚本使用.md)
+- [redis+lua实现黑客防刷攻击](2020/redis/redis+lua实现黑客防刷攻击.md)
+
+#### 微博解剖redis - hash
+- [redis的hash数据结构](2020/redis/redis的hash数据结构.md)
+- [京东双11购物车](2020/redis/京东双11购物车.md)
+- [SpringBoot+Redis+Cookies实现高并发的购物车](2020/redis/SpringBoot+Redis+Cookies实现高并发的购物车.md)
+- [淘宝短链接如何设计](2020/redis/淘宝短链接如何设计.md)
+- [redis解决了分布式系统的session一致性问题](2020/redis/redis解决了分布式系统的session一致性问题.md)
+
+#### 微博解剖redis - set
+- [redis-set入门](2020/redis/redis-set入门.md)
+- [基于redis淘宝评价黑名单校验器](2020/redis/基于redis淘宝评价黑名单校验器.md)
+- [京东京豆抽奖实战](2020/redis/京东京豆抽奖实战.md)
+- [支付宝天天抽奖实战](2020/redis/支付宝天天抽奖实战.md)
+- [基于Redis的高并发随机展示](2020/redis/基于Redis的高并发随机展示.md)
+- [微博点赞实战](2020/redis/微博点赞实战.md)
+- [基于Redis的微博关注与粉丝](2020/redis/基于Redis的微博关注与粉丝.md)
 
 ### Redis补充
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
@@ -55,6 +79,8 @@
 - [(深入理解JUC)ConcurrentLinkedQueue源码](https://blog.qinxuewu.club/2019/03/29/java/shen-ru-li-jie-concurrentlinkedqueue-yuan-ma)
 - [volatile的内存语义](https://blog.qinxuewu.club/2019/04/05/java/volatile-de-nei-cun-yu-yi)
 
+### JDK8方法讲解
+- [Map 的 getOrDefault()，putIfAbsent() 和 computeIfAbsent() 三个方法](https://segmentfault.com/a/1190000018276448)
 
 
 ## SpringBoot/SpringCloud/Spring/SpringSecurity/Oauth2
@@ -68,6 +94,7 @@
 - [SpringBoot集成Kafka](https://blog.csdn.net/u010391342/article/details/81430402)
 - [如何优雅关闭 Spring Boot 应用](https://mp.weixin.qq.com/s/l9nSknaB9i_5cCNT-mbnsw?tdsourcetag=s_pcqq_aiomsg)
 - [Spring Boot使用log4j2](https://mp.weixin.qq.com/s/v0kbYtgT3mhK3ffN_Sekfw)
+- [Springboot加载自定义yml文件配置的方法](https://blog.csdn.net/u010922732/article/details/91048606)
 
 ### SpringCloud
 
@@ -146,8 +173,9 @@
 - [Zookeeper面试专题](其它/Zookeeper面试专题.md)
 - [redis面试专题.md](其它/redis面试.md)
 - [spring面试专题.md](其它/spring.md)
-
-
+- [一文详解微服务架构](https://mp.weixin.qq.com/s/64RA_Mck1MZ2Ek9RxTzghQ)
+- [HashMap 源码赏析 JDK8](https://www.cnblogs.com/hello-shf/p/12168181.html)
+- [ConcurrentHashMap源码解析 JDK8](https://www.cnblogs.com/hello-shf/p/12183263.html)
 ## 随笔
 - [docsify一个神奇的文档生成工具](其它/docsify.md)
 - [Linux服务命令](其它/Linxu服务命令.md)
