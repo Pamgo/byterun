@@ -14,7 +14,6 @@ package com.example.Proxy.aspectJ;
 /**
  * AspectJ是静态代理的增强，所谓的静态代理就是AOP框架会在编译阶段生成AOP代理类<br>
  *
- * @author qinxuewu
  * @create 18/7/7下午1:57
  * @since 1.0.0
  */
@@ -90,7 +89,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 /**
  * 实现Web层的日志切面
- * @author qxw
  * 2018年3月28日
  */
 
@@ -169,7 +167,6 @@ public class UserServiceImpl implements UserService {
 ```java
 /**
  * jdk动态代理实现
- * @author qxw
  * 2018年1月23日
  */
 public class MyInvocationHandler implements InvocationHandler {
@@ -214,7 +211,6 @@ public class MyInvocationHandler implements InvocationHandler {
 /**
  * 使用动态代理   基本上就是AOP的一个简单实现了
  * 目标对象的方法执行之前和执行之后进行了增强。Spring的AOP实现其实也是用了Proxy和InvocationHandler这两个东西的。 
- * @author qxw
  * 2018年1月23日
  */
 public class ProxyTest {
