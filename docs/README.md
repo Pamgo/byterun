@@ -83,7 +83,7 @@
 - [Map 的 getOrDefault()，putIfAbsent() 和 computeIfAbsent() 三个方法](https://segmentfault.com/a/1190000018276448)
 
 
-## SpringBoot/SpringCloud/Spring/SpringSecurity/Oauth2
+## Spring知识体
 
 ### SpringBoot
 - [SpringBoot2集成Sharding-JDBC实现分库分表](2019/SpringBoot2集成Sharding-JDBC实现分库分表.md)
