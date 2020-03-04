@@ -65,7 +65,7 @@
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [Redis从入门到精通，至少要看看这篇！](https://mp.weixin.qq.com/s?__biz=MzIxMTE0ODU5NQ==&mid=2650238539&idx=1&sn=ba1b0443d0e86fe585499d70af6c4012&chksm=8f5a0417b82d8d019c847e4547d8d2880ee4c4c611e5e6cdf254bbd76c74bb8ec5021cc5d769&mpshare=1&scene=23&srcid=&sharer_sharetime=1571538850095&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
 - [如何解决数据库与缓存一致性问题](https://mp.weixin.qq.com/s?__biz=MzI1NTI3MzEwMg==&mid=2247486189&idx=1&sn=b8f00768409347ea7b39ebdf74232d8d&chksm=ea393b0cdd4eb21a7deff4820796db655cf5fc61f945e35922df13961e38526652e605c5403b&mpshare=1&scene=23&srcid=1029FXnm1ngvP5lAzGwAVUOH&sharer_sharetime=1572323340985&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
-
+- [分布式数据之缓存技术，一起来揭开其神秘面纱](https://mp.weixin.qq.com/s?__biz=MzI2MTk1NDY0Mw==&mid=2247483874&idx=1&sn=b4dcf208f4dd04553f283e61d0ebfd08&chksm=ea53ccdedd2445c8b74cf9c59346e8580ff9d3ea1d4b784cc636ca2b6c00a7ecfc7cff96873f&mpshare=1&scene=23&srcid&sharer_sharetime=1583283906465&sharer_shareid=42a3d887c59629d50ec3421c14c20068%23rd)
 
 ## JAVA 
 - [深入理解JVM](2019/深入理解JVM.md)
