@@ -187,7 +187,7 @@
 - [pandownload百度网盘不限速下载](http://pandownload.com/index.html)
 - [IntelliJ IDEA 超实用技巧](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjUwMg==&mid=2247486915&idx=1&sn=a71b27f9d0708101541381e5cf44cb88&chksm=a6da87aa91ad0ebcf53f064aad76ec194eb412c833110b986205caa51d7ccc30549e3206537c&mpshare=1&scene=23&srcid=&sharer_sharetime=1572348046126&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [一致性哈希算法(分库分表，负载均衡，实践分享)](https://blog.csdn.net/weixin_34216036/article/details/91613626?tdsourcetag=s_pctim_aiomsg)
-- [跳表（SkipList）及ConcurrentSkipListMap源码解析](https://blog.csdn.net/sunxianghuang/article/details/52221913)
+- [基于跳跃表的 ConcurrentSkipListMap 内部实现（Java 8）](https://blog.csdn.net/weixin_30301183/article/details/95266861?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 ## 友情链接
 - [爱上编程](http://coderluo.top/)
 - [薛勤的博客](https://www.cnblogs.com/yueshutong/)
