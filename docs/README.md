@@ -111,7 +111,7 @@
 - [spring cloud gateway集成hystrix实战](https://www.jianshu.com/p/81b0059dbd98)
 
 ### Spring
-- [2020Sprin笔记](Spring/Spring笔记.md)
+- [2020Spring笔记](Spring/Spring笔记.md)
 - [Spring集成dubbo实现服务降级](Spring/Spring集成dubbo集群实现服务降级.md)
 - [SpringMVC生命周期](Spring/SpringMvc生命周期.md)
 - [Spring Aop](Spring/aop.md)
