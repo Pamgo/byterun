@@ -783,7 +783,7 @@ public class RibbonHandler {
 
 Ribbon 是一个通用的 HTTP 客户端工具，Feign 是基于 Ribbon 实现的。
 
-- Feign 的tedian
+- Feign 的特点
 
 1、Feign 是一个声明式的 Web Service 客户端。
 
@@ -1420,7 +1420,7 @@ Spring Cloud Zipkin
 
 Zipkin 是一个可以采集并且跟踪分布式系统中请求数据的组件，让开发者可以更加直观的监控到请求在各个微服务所耗费的时间等，Zipkin：Zipkin Server、Zipkin Client。
 
-####创建 Zipkin Server
+#### 创建 Zipkin Server
 
 - 创建 Maven 工程，pom.xml
 
