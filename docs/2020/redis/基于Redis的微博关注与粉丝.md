@@ -13,6 +13,8 @@
  集合key设计
  阿甘的关注集合 key=followee:阿甘userid
  雷军的粉丝集合 key=follower：雷军userid
+ 
+ ---
 ![微博关注与粉丝业务场景分析](https://img-blog.csdnimg.cn/20200316220851393.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTIxNTAxNjg=,size_16,color_FFFFFF,t_70)
 
 ### SpringBoot+Redis 实现微博关注与粉丝
