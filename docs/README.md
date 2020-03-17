@@ -62,6 +62,7 @@
 - [基于Redis的微博关注与粉丝](2020/redis/基于Redis的微博关注与粉丝.md)
 
 #### 微博解剖redis - list
+- [springboot-redis集群配置](2020/redis/springboot-redis集群配置.md)
 - [list-入门](2020/redis/list-入门.md)
 - [基于redis的微博个人首页](2020/redis/基于redis的微博个人首页.md)
 - [微博个人列表和关注列表的性能瓶颈](2020/redis/微博个人列表和关注列表的性能瓶颈.md)
