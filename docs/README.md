@@ -36,6 +36,7 @@
 ### Redis笔记
 - [Redis配置文件说明](2020/redis/redis配置文件说明.md)
 - [Redis安装](2020/redis/一、redis安装.md)
+#### 解剖讲解redis - string
 - [Redis string入门](2020/redis/二、string入门.md)
 - [采用redis生成全局id](2020/redis/三、采用redis生成全局id.md)
 - [Spring boot 和redis集成](2020/redis/四、springboot和redis集成.md)
