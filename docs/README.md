@@ -61,6 +61,27 @@
 - [微博点赞实战](2020/redis/微博点赞实战.md)
 - [基于Redis的微博关注与粉丝](2020/redis/基于Redis的微博关注与粉丝.md)
 
+#### 微博解剖redis - list
+- [list-入门](2020/redis/list-入门.md)
+- [基于redis的微博个人首页](2020/redis/基于redis的微博个人首页.md)
+- [微博个人列表和关注列表的性能瓶颈](2020/redis/微博个人列表和关注列表的性能瓶颈.md)
+- [需求分析:淘宝聚划算功能](2020/redis/需求分析:淘宝聚划算功能.md)
+- [如何防止缓存击穿](2020/redis/如何防止缓存击穿.md)
+- [二级缓存的高并发微信文章的阅读量PV](2020/redis/二级缓存的高并发微信文章的阅读量PV.md)
+- [高并发的微信抢红包](2020/redis/高并发的微信抢红包.md)
+- [为什么要使用分布式锁，它解决了什么问题](2020/redis/为什么要使用分布式锁，它解决了什么问题.md)
+- [设计一个不可重入锁](2020/redis/设计一个不可重入锁.md)
+- [基于synchronized下订单的可重入锁](2020/redis/基于synchronized下订单的可重入锁.md)
+- [基于ReentrantLock的递归锁](2020/redis/基于ReentrantLock的递归锁.md)
+- [redis如何实现分布式重入锁](2020/redis/redis如何实现分布式重入锁.md)
+- [spring boot 和redis集成](2020/redis/04springboot和redis集成.md)
+- [采用docker部署3台Redis分布式红锁实例](2020/redis/05采用docker部署3台Redis分布式红锁实例.md)
+- [分布式红锁的waitTime的设计原理](2020/redis/06分布式红锁的waitTime的设计原理.md)
+- [分布式红锁的加锁的lua底层设计原理](2020/redis/07分布式红锁的加锁的lua底层设计原理.md)
+- [分布式红锁的leaseTime的设计原理](2020/redis/08分布式红锁的leaseTime的设计原理.md)
+- [分布式红锁的加锁失败的设计原理](2020/redis/09分布式红锁的加锁失败的设计原理.md)
+
+
 ### Redis补充
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [Redis从入门到精通，至少要看看这篇！](https://mp.weixin.qq.com/s?__biz=MzIxMTE0ODU5NQ==&mid=2650238539&idx=1&sn=ba1b0443d0e86fe585499d70af6c4012&chksm=8f5a0417b82d8d019c847e4547d8d2880ee4c4c611e5e6cdf254bbd76c74bb8ec5021cc5d769&mpshare=1&scene=23&srcid=&sharer_sharetime=1571538850095&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
