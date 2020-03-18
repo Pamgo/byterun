@@ -4,7 +4,7 @@
 基于setnx的分布式锁存在单点风险，如果存储的分布式锁key挂掉的话，就可能存在丢锁的风险。一旦丢锁，就会造成多个客户端同时握有锁，从而导致分布式锁失败。
 具体如下：
 
-![image](https://github.com/agan-java/images/blob/master/redis/lock/01.png?raw=true)
+![image](https://img-blog.csdnimg.cn/20200316220215171.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTIxNTAxNjg=,size_16,color_FFFFFF,t_70)
 1. 客户端A 从master拿到锁lock01
 2. master正要把lock01同步(Redis的主从同步通常是异步的）给slave时，突然宕机了，导致lock01没同步给slave
 3. 主从切换，slave节点被晋级为master节点
