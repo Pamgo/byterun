@@ -2,13 +2,17 @@
 
 提前做2个动作:
 1. 先把3台 redis key全部清空（为了不受debug干扰，必须先删除锁）
+
 ```cmd
 127.0.0.1:6379> flushdb
 OK
 ```
 都设置为30分钟超时 过期
-2. isLock = redLock.tryLock(1000*60*30, 1000*60*30, TimeUnit.MILLISECONDS);
+2. 
 
+```java
+isLock = redLock.tryLock(1000*60*30, 1000*60*30, TimeUnit.MILLISECONDS);
+```
 
 leaseTime就是租约时间，就是redis key的过期时间。
 ```java

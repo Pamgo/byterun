@@ -2,16 +2,21 @@
 
 提前做2个动作:
 1. 先把3台 redis key全部清空（为了不受debug干扰，必须先删除锁）
+
 ```cmd
 127.0.0.1:6379> flushdb
 OK
 ```
-2. isLock = redLock.tryLock(1000*5*30, 1000*60*5*30, TimeUnit.MILLISECONDS);
+2. 
+```java
+isLock = redLock.tryLock(1000*5*30, 1000*60*5*30, TimeUnit.MILLISECONDS);
+```
 
+debug的断点 断在 
+```java
+RedissonLock.tryLockInnerAsync(long leaseTime, TimeUnit unit, long threadId, RedisStrictCommand<T> command) 
+```java
 
-
-
-debug的断点 断在 RedissonLock.tryLockInnerAsync(long leaseTime, TimeUnit unit, long threadId, RedisStrictCommand<T> command) 
 ```java 
 <T> RFuture<T> tryLockInnerAsync(long leaseTime, TimeUnit unit, long threadId, RedisStrictCommand<T> command) {
     internalLockLeaseTime = unit.toMillis(leaseTime);
