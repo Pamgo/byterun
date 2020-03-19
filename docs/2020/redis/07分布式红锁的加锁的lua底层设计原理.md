@@ -43,7 +43,7 @@ RedissonLock.tryLockInnerAsync(long leaseTime, TimeUnit unit, long threadId, Red
                 Collections.<Object>singletonList(getName()), internalLockLeaseTime, getLockName(threadId));
 }
 ```
-KEYS[1]：Collections.<Object>singletonList(getName())，为分布式锁的key，即MY_REDLOCK
-ARGV[1]：internalLockLeaseTime 为锁的租约时间，即过期时间
-ARGV[2]：getLockName(threadId)（4218379f-849d-498f-8c28-56f3fce42f71:52）代表了redis连接id+线程id，
-         即UUID+threadId,组成锁的获取者，就是谁拿到了该锁。
+
+* KEYS[1]：Collections.<Object>singletonList(getName())，为分布式锁的key，即MY_REDLOCK
+* ARGV[1]：internalLockLeaseTime 为锁的租约时间，即过期时间
+* ARGV[2]：getLockName(threadId)（4218379f-849d-498f-8c28-56f3fce42f71:52）代表了redis连接id+线程id， 即UUID+threadId,组成锁的获取者，就是谁拿到了该锁。
