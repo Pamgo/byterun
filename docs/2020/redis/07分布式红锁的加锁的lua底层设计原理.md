@@ -15,7 +15,7 @@ isLock = redLock.tryLock(1000*5*30, 1000*60*5*30, TimeUnit.MILLISECONDS);
 debug的断点 断在 
 ```java
 RedissonLock.tryLockInnerAsync(long leaseTime, TimeUnit unit, long threadId, RedisStrictCommand<T> command) 
-```java
+```
 
 ```java 
 <T> RFuture<T> tryLockInnerAsync(long leaseTime, TimeUnit unit, long threadId, RedisStrictCommand<T> command) {
