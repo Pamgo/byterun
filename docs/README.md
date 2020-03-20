@@ -190,7 +190,8 @@
 ## Nginx系列
 - [Nginx 入门到实战](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247488002&idx=2&sn=31457adbe7a9870bc7e5f02a37de1ee0&chksm=fa496db3cd3ee4a57aa73d803c4fbfb778e27361aa8a2af0fb30e125e530cdc872dc2d6c808c&mpshare=1&scene=23&srcid=1020zsm31xzq6kPjOZBT0zgF&sharer_sharetime=1571538825034&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [实用的 Nginx 配置生成工具](https://nginxconfig.io/)
-
+- [除了负载均衡，Nginx 能做的](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247485997&idx=1&sn=a9b97051f93950b8c55f01f2dd9e9559&chksm=f9f511c9ce8298dffd3e9da855bb0b27f91893f53c0f37f4fe66a51618fb610751efd4f8239c&mpshare=1&scene=23&srcid=0320q8KAxJU8F8sE6xda6Wds&sharer_sharetime=1584665489994&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
+- [lua Nginx文档查询信息](https://moonbingbing.gitbooks.io/openresty-best-practices/openresty/inline_var.html)
 ## 知识点总结
 - [多线程和JVM知识总结](2019/多线程和JVM知识总结.md)
 - [JAVA核心技术36讲笔记](2019/JAVA核心技术36讲.md)
