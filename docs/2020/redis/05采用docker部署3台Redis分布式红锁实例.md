@@ -1,5 +1,6 @@
 
 ### 采用docker部署3台Redis分布式红锁实例
+![image](https://img-blog.csdnimg.cn/20200316220215171.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTIxNTAxNjg=,size_16,color_FFFFFF,t_70)
 
 ```cmd
 docker run -p 6381:6379 --name redis-master-1 -d redis:5.0.7
