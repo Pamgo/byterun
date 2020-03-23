@@ -145,7 +145,8 @@
 - [Spring Security 从入门到进阶系列教程](http://www.spring4all.com/article/428)
 - [SpringBootSecurity详解学习](http://www.spring4all.com/common/user/10161)
 - [Spring Cloud OAuth2.0 微服务中配置 Jwt Token 签名/验证](https://www.cnblogs.com/Irving/p/9430460.html)
-
+### 用户博客
+- [MacroZheng](https://juejin.im/post/5e5519fd6fb9a07cc7473fcf)
 ## 分布式
 - [ELK分布式日志平台搭建](https://blog.csdn.net/u010391342/article/details/82895385)
 - [Netty入门(一)HelloWorld程序编写](https://blog.csdn.net/u010391342/article/details/83011198)
