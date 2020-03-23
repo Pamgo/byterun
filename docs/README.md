@@ -92,6 +92,7 @@
 - [分布式数据之缓存技术，一起来揭开其神秘面纱](https://mp.weixin.qq.com/s?__biz=MzI2MTk1NDY0Mw==&mid=2247483874&idx=1&sn=b4dcf208f4dd04553f283e61d0ebfd08&chksm=ea53ccdedd2445c8b74cf9c59346e8580ff9d3ea1d4b784cc636ca2b6c00a7ecfc7cff96873f&mpshare=1&scene=23&srcid&sharer_sharetime=1583283906465&sharer_shareid=42a3d887c59629d50ec3421c14c20068%23rd)
 
 ## JAVA 
+- [JUC并发编程最新版通俗易懂](2020/books/JUC.pdf)
 - [深入理解JVM](2019/深入理解JVM.md)
 - [jvm监控命令](JVM/jvm监控命令.md)
 - [(深入理解JUC)什么是AQS队列同步器](https://blog.csdn.net/u010391342/article/details/88657920)
