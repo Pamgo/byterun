@@ -85,6 +85,7 @@
 
 
 ### Redis补充
+- [彻底理解Redis持久化](https://mp.weixin.qq.com/s?__biz=MzI4NjExMDA4NQ==&mid=2648452064&idx=1&sn=bc0b05c1fb43baf372fa8be41645a694&chksm=f3c9730ac4befa1c1ac4464f0563baf9b1fc8057a4de825195e5d631e7a2de91cd64d41dedbb&mpshare=1&scene=23&srcid=0325HYv5DeOHIzpnEVd4vuim&sharer_sharetime=1585092974551&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [Redis从入门到精通，至少要看看这篇！](https://mp.weixin.qq.com/s?__biz=MzIxMTE0ODU5NQ==&mid=2650238539&idx=1&sn=ba1b0443d0e86fe585499d70af6c4012&chksm=8f5a0417b82d8d019c847e4547d8d2880ee4c4c611e5e6cdf254bbd76c74bb8ec5021cc5d769&mpshare=1&scene=23&srcid=&sharer_sharetime=1571538850095&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
 - [Spring Cache 操作 Redis 实现数据缓存](https://mp.weixin.qq.com/s/8IktJAHrWQ3WSx2risrEGg)
