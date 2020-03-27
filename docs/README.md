@@ -213,7 +213,7 @@
 - [Docker学习笔记](2019/docker笔记.md)
 - [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
 - [图解LeetCode](https://github.com/ZXZxin/ZXBlog/blob/master/%E5%88%B7%E9%A2%98/LeetCode/LeetCodeSolutionIndex.md)
-- [图解剑指Offer](https://github.com/ZXZxin/ZXBlog/tree/master/%E5%88%B7%E9%A2%98/Other/%E5%89%91%E6%8C%87Offer)
+- [图解剑指Offer](https://github.com/ZXZxin/ZXBlog)
 - [互联网Java工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)
 - [pandownload百度网盘不限速下载](http://pandownload.com/index.html)
 - [IntelliJ IDEA 超实用技巧](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjUwMg==&mid=2247486915&idx=1&sn=a71b27f9d0708101541381e5cf44cb88&chksm=a6da87aa91ad0ebcf53f064aad76ec194eb412c833110b986205caa51d7ccc30549e3206537c&mpshare=1&scene=23&srcid=&sharer_sharetime=1572348046126&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
