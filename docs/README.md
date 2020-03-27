@@ -108,7 +108,7 @@
 ### JDK8方法讲解
 - [Map 的 getOrDefault()，putIfAbsent() 和 computeIfAbsent() 三个方法](https://segmentfault.com/a/1190000018276448)
 - [ConcurrentHashMap源码解析 JDK8](https://www.cnblogs.com/hello-shf/p/12183263.html)
-
+- [HashMap 源码赏析 JDK8](https://www.cnblogs.com/hello-shf/p/12168181.html)
 ## Spring知识体
 
 ### SpringBoot
@@ -203,7 +203,6 @@
 - [Zookeeper面试专题](其它/Zookeeper面试专题.md)
 - [redis面试专题](其它/redis面试.md)
 - [一文详解微服务架构](https://mp.weixin.qq.com/s/64RA_Mck1MZ2Ek9RxTzghQ)
-- [HashMap 源码赏析 JDK8](https://www.cnblogs.com/hello-shf/p/12168181.html)
 
 ## 随笔
 - [docsify一个神奇的文档生成工具](其它/docsify.md)
@@ -222,3 +221,4 @@
 - [爱上编程](http://coderluo.top/)
 - [薛勤的博客](https://www.cnblogs.com/yueshutong/)
 - [程序猿DD](http://blog.didispace.com/)
+- [超级小小黑](https://www.cnblogs.com/hello-shf/)
