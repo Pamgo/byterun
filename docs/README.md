@@ -207,6 +207,7 @@
 - [一文详解微服务架构](https://mp.weixin.qq.com/s/64RA_Mck1MZ2Ek9RxTzghQ)
 
 ## 随笔
+- [简易版限流算法](2020/notes/bucketlimit.md)
 - [docsify一个神奇的文档生成工具](其它/docsify.md)
 - [Linux服务命令](其它/Linxu服务命令.md)
 - [PMP备考练习题](2019/PMP练习题.md)
