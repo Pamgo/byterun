@@ -1,7 +1,7 @@
 ### 简易版限流算法实现
 
 ```java
-package com.kuang.limit;
+package com.byterun.limit;
 
 import java.util.Objects;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -141,3 +141,8 @@ public class BuckLimitDemo {
 
 ```
 
+> 文献参考
+
+* [BlockingQueue阻塞队列](https://mp.weixin.qq.com/s?__biz=MzA5MTkxMDQ4MQ==&mid=2648933190&idx=1&sn=916f539cb1e695948169a358549227d3&chksm=88621b78bf15926e0a94e50a43651dab0ceb14a1fb6b1d8b9b75e38c6d8ac908e31dd2131ded&token=1963100670&lang=zh_CN&scene=21#wechat_redirect)
+
+* [JUC中的LockSupport工具类](https://mp.weixin.qq.com/s?__biz=MzA5MTkxMDQ4MQ==&mid=2648933125&idx=1&sn=382528aeb341727bafb02bb784ff3d4f&chksm=88621b3bbf15922d93bfba11d700724f1e59ef8a74f44adb7e131a4c3d1465f0dc539297f7f3&token=1338873010&lang=zh_CN&scene=21#wechat_redirect)
