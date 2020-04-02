@@ -1,5 +1,7 @@
 ### 简易版限流算法实现
 
+![image-20200402213211325](https://img-blog.csdnimg.cn/20200402213454927.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTIxNTAxNjg=,size_16,color_FFFFFF,t_70)
+
 ```java
 package com.byterun.limit;
 
@@ -24,7 +26,7 @@ public class BuckLimitDemo {
         private int flowRate;
         // 流速时间单位
         private TimeUnit flowRateUnit;
-        // 漏桶流出的事件间隔（纳秒）
+        // 漏桶流出的时间间隔（纳秒）
         private long flowRateNanosTime;
 
         private BlockingQueue<Node> queue;
@@ -64,7 +66,7 @@ public class BuckLimitDemo {
                     LockSupport.unpark(node.thread);
                     System.out.println("唤醒任务线程=>" + node.thread.getName() +",剩余线程：" +this.queue.size());
                 }
-                // 休眠flowRateNanosTime
+                // 休眠flowRateNanosTime，漏桶线程等待下一轮流程
                 LockSupport.parkNanos(this.flowRateNanosTime);
             }
         }
