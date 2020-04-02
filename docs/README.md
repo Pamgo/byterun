@@ -205,7 +205,7 @@
 - [Zookeeper面试专题](其它/Zookeeper面试专题.md)
 - [redis面试专题](其它/redis面试.md)
 - [一文详解微服务架构](https://mp.weixin.qq.com/s/64RA_Mck1MZ2Ek9RxTzghQ)
-
+- [超详细java中的ClassLoader详解](https://blog.csdn.net/briblue/article/details/54973413)
 ## 随笔
 - [简易版限流算法](2020/notes/bucketlimit.md)
 - [docsify一个神奇的文档生成工具](其它/docsify.md)
