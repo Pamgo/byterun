@@ -127,6 +127,7 @@
 - [如何优雅关闭 Spring Boot 应用](https://mp.weixin.qq.com/s/l9nSknaB9i_5cCNT-mbnsw?tdsourcetag=s_pcqq_aiomsg)
 - [Spring Boot使用log4j2](https://mp.weixin.qq.com/s/v0kbYtgT3mhK3ffN_Sekfw)
 - [Springboot加载自定义yml文件配置的方法](https://blog.csdn.net/u010922732/article/details/91048606)
+- [SpringBoot集成Elasticsearch7.x](2020/elasticsearch/es-jdsearch.md)
 
 ### SpringCloud
 - [2020SpringCloud笔记](2020/SpringCloud笔记.md)
