@@ -2,6 +2,10 @@
 
 项目地址：[SpringBoot+Elasticesearch7.x](https://github.com/Pamgo/sb-elasticsearch-demo.git)
 
+安装软件如下
+
+![es](https://img-blog.csdnimg.cn/20200412215219294.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTIxNTAxNjg=,size_16,color_FFFFFF,t_70)
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
