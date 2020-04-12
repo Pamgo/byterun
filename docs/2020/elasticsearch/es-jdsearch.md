@@ -1,5 +1,7 @@
 ### springboot集成Elasticsearch7.x
 
+项目地址：[SpringBoot+Elasticesearch7.x](https://github.com/Pamgo/sb-elasticsearch-demo.git)
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
