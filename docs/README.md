@@ -86,15 +86,14 @@
 
 ### Redis补充
 
-* [HyperLogLog设计原理论文](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf)
-
+- [HyperLogLog设计原理论文](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf)
 - [彻底理解Redis持久化](https://mp.weixin.qq.com/s?__biz=MzI4NjExMDA4NQ==&mid=2648452064&idx=1&sn=bc0b05c1fb43baf372fa8be41645a694&chksm=f3c9730ac4befa1c1ac4464f0563baf9b1fc8057a4de825195e5d631e7a2de91cd64d41dedbb&mpshare=1&scene=23&srcid=0325HYv5DeOHIzpnEVd4vuim&sharer_sharetime=1585092974551&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [Redis从入门到精通，至少要看看这篇！](https://mp.weixin.qq.com/s?__biz=MzIxMTE0ODU5NQ==&mid=2650238539&idx=1&sn=ba1b0443d0e86fe585499d70af6c4012&chksm=8f5a0417b82d8d019c847e4547d8d2880ee4c4c611e5e6cdf254bbd76c74bb8ec5021cc5d769&mpshare=1&scene=23&srcid=&sharer_sharetime=1571538850095&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
 - [Spring Cache 操作 Redis 实现数据缓存](https://mp.weixin.qq.com/s/8IktJAHrWQ3WSx2risrEGg)
 - [如何解决数据库与缓存一致性问题](https://mp.weixin.qq.com/s?__biz=MzI1NTI3MzEwMg==&mid=2247486189&idx=1&sn=b8f00768409347ea7b39ebdf74232d8d&chksm=ea393b0cdd4eb21a7deff4820796db655cf5fc61f945e35922df13961e38526652e605c5403b&mpshare=1&scene=23&srcid=1029FXnm1ngvP5lAzGwAVUOH&sharer_sharetime=1572323340985&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
 - [分布式数据之缓存技术，一起来揭开其神秘面纱](https://mp.weixin.qq.com/s?__biz=MzI2MTk1NDY0Mw==&mid=2247483874&idx=1&sn=b4dcf208f4dd04553f283e61d0ebfd08&chksm=ea53ccdedd2445c8b74cf9c59346e8580ff9d3ea1d4b784cc636ca2b6c00a7ecfc7cff96873f&mpshare=1&scene=23&srcid&sharer_sharetime=1583283906465&sharer_shareid=42a3d887c59629d50ec3421c14c20068%23rd)
-
+- [Spring Boot 监听 Redis Key 失效事件实现定时任务](https://mp.weixin.qq.com/s?__biz=MzU0MDEwMjgwNA==&mid=2247487441&idx=1&sn=0fffeb2abc5eaa9e4ba301839b0a5886&chksm=fb3f162acc489f3cf719799773c8e8abaa24418eb600a532bc9743a7b861c21d546d5ab7dc07&mpshare=1&scene=23&srcid=&sharer_sharetime=1587000308055&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 ## JAVA 
 - [深入理解JVM](2019/深入理解JVM.md)
 - [jvm监控命令](JVM/jvm监控命令.md)
@@ -209,29 +208,18 @@
 - [一文详解微服务架构](https://mp.weixin.qq.com/s/64RA_Mck1MZ2Ek9RxTzghQ)
 - [超详细java中的ClassLoader详解](https://blog.csdn.net/briblue/article/details/54973413)
 ## 随笔
-- [ ] [简易版限流算法](2020/notes/bucketlimit.md)
-
-- [ ] [docsify一个神奇的文档生成工具](其它/docsify.md)
-
-- [ ] [Linux服务命令](其它/Linxu服务命令.md)
-
-- [ ] [PMP备考练习题](2019/PMP练习题.md)
-
-- [ ] [Docker学习笔记](2019/docker笔记.md)
-
-- [ ] [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
-
-- [ ] [图解LeetCode](https://github.com/ZXZxin/ZXBlog/blob/master/%E5%88%B7%E9%A2%98/LeetCode/LeetCodeSolutionIndex.md)
-
-- [ ] [图解剑指Offer](https://github.com/ZXZxin/ZXBlog)
-
-- [ ] [互联网Java工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)
-
-- [ ] [pandownload百度网盘不限速下载](http://pandownload.com/index.html)
-
-- [ ] [IntelliJ IDEA 超实用技巧](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjUwMg==&mid=2247486915&idx=1&sn=a71b27f9d0708101541381e5cf44cb88&chksm=a6da87aa91ad0ebcf53f064aad76ec194eb412c833110b986205caa51d7ccc30549e3206537c&mpshare=1&scene=23&srcid=&sharer_sharetime=1572348046126&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
-
-- [ ] [一致性哈希算法(分库分表，负载均衡，实践分享)](https://blog.csdn.net/weixin_34216036/article/details/91613626?tdsourcetag=s_pctim_aiomsg)
+- [简易版限流算法](2020/notes/bucketlimit.md)
+- [docsify一个神奇的文档生成工具](其它/docsify.md)
+- [Linux服务命令](其它/Linxu服务命令.md)
+- [PMP备考练习题](2019/PMP练习题.md)
+- [Docker学习笔记](2019/docker笔记.md)
+- [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
+- [图解LeetCode](https://github.com/ZXZxin/ZXBlog/blob/master/%E5%88%B7%E9%A2%98/LeetCode/LeetCodeSolutionIndex.md)
+- [图解剑指Offer](https://github.com/ZXZxin/ZXBlog)
+- [互联网Java工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)
+- [pandownload百度网盘不限速下载](http://pandownload.com/index.html)
+- [IntelliJ IDEA 超实用技巧](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjUwMg==&mid=2247486915&idx=1&sn=a71b27f9d0708101541381e5cf44cb88&chksm=a6da87aa91ad0ebcf53f064aad76ec194eb412c833110b986205caa51d7ccc30549e3206537c&mpshare=1&scene=23&srcid=&sharer_sharetime=1572348046126&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
+- [一致性哈希算法(分库分表，负载均衡，实践分享)](https://blog.csdn.net/weixin_34216036/article/details/91613626?tdsourcetag=s_pctim_aiomsg)
 
   
 
