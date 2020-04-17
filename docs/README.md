@@ -12,16 +12,17 @@
 ## 关于
 
 - email:  test@qq.com
-- CSDN: https://www.baidu.com
+- CSDN: [访问](https://blog.csdn.net/u012150168)
 - 简书: https://www.baidu.com
 - 掘金: https://www.baidu.com
-- 个人博客：https://pamgo.github.io/byterun
+- 个人博客：[访问](https://pamgo.github.io/byterun)
 
 ## 开源小项目
 
 - [weiyunpan](https://github.com/Pamgo/weiyunpan):   微云盘，高仿百度云；使用技术jdbc/servlet/jquery    MVC三层架构；同时封装了大量通用工具（已不维护）
 - [vshop](https://github.com/Pamgo/vshop):   无限极分销系统（dev)（已不维护）
 - [gostudy](https://github.com/Pamgo/gostudy):  go语言学习
+- [es/elk](https://github.com/Pamgo/sb-elasticsearch-demo.git): es/elk+rabbitmq日志收集
 
 ## 小工具
 
@@ -53,7 +54,10 @@
 - [淘宝短链接如何设计](2020/redis/淘宝短链接如何设计.md)
 - [redis解决了分布式系统的session一致性问题](2020/redis/redis解决了分布式系统的session一致性问题.md)
 
+----
+
 #### 微博解剖redis - set
+
 - [redis-set入门](2020/redis/redis-set入门.md)
 - [基于redis淘宝评价黑名单校验器](2020/redis/基于redis淘宝评价黑名单校验器.md)
 - [京东京豆抽奖实战](2020/redis/京东京豆抽奖实战.md)
@@ -63,7 +67,10 @@
 - [基于Redis的微博关注与粉丝](2020/redis/基于Redis的微博关注与粉丝.md)
 - [淘宝首页亿级UV的技术方案分析](2020/redis/hyperloglog.md)
 
+----
+
 #### 微博解剖redis - list
+
 - [springboot-redis集群配置](2020/redis/springboot-redis集群配置.md)
 - [list-入门](2020/redis/list-入门.md)
 - [基于redis的微博个人首页](2020/redis/基于redis的微博个人首页.md)
@@ -84,6 +91,8 @@
 - [分布式红锁的leaseTime的设计原理](2020/redis/08分布式红锁的leaseTime的设计原理.md)
 - [分布式红锁的加锁失败的设计原理](2020/redis/09分布式红锁的加锁失败的设计原理.md)
 
+----
+
 ### Redis补充
 
 - [HyperLogLog设计原理论文](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf)
@@ -94,7 +103,10 @@
 - [如何解决数据库与缓存一致性问题](https://mp.weixin.qq.com/s?__biz=MzI1NTI3MzEwMg==&mid=2247486189&idx=1&sn=b8f00768409347ea7b39ebdf74232d8d&chksm=ea393b0cdd4eb21a7deff4820796db655cf5fc61f945e35922df13961e38526652e605c5403b&mpshare=1&scene=23&srcid=1029FXnm1ngvP5lAzGwAVUOH&sharer_sharetime=1572323340985&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd) 
 - [分布式数据之缓存技术，一起来揭开其神秘面纱](https://mp.weixin.qq.com/s?__biz=MzI2MTk1NDY0Mw==&mid=2247483874&idx=1&sn=b4dcf208f4dd04553f283e61d0ebfd08&chksm=ea53ccdedd2445c8b74cf9c59346e8580ff9d3ea1d4b784cc636ca2b6c00a7ecfc7cff96873f&mpshare=1&scene=23&srcid&sharer_sharetime=1583283906465&sharer_shareid=42a3d887c59629d50ec3421c14c20068%23rd)
 - [Spring Boot 监听 Redis Key 失效事件实现定时任务](https://mp.weixin.qq.com/s?__biz=MzU0MDEwMjgwNA==&mid=2247487441&idx=1&sn=0fffeb2abc5eaa9e4ba301839b0a5886&chksm=fb3f162acc489f3cf719799773c8e8abaa24418eb600a532bc9743a7b861c21d546d5ab7dc07&mpshare=1&scene=23&srcid=&sharer_sharetime=1587000308055&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
+----
+
 ## JAVA 
+
 - [深入理解JVM](2019/深入理解JVM.md)
 - [jvm监控命令](JVM/jvm监控命令.md)
 - [(深入理解JUC)什么是AQS队列同步器](https://blog.csdn.net/u010391342/article/details/88657920)
@@ -127,7 +139,10 @@
 - [Spring Boot使用log4j2](https://mp.weixin.qq.com/s/v0kbYtgT3mhK3ffN_Sekfw)
 - [Springboot加载自定义yml文件配置的方法](https://blog.csdn.net/u010922732/article/details/91048606)
 
+----
+
 ### SpringCloud
+
 - [2020SpringCloud笔记](2020/SpringCloud笔记.md)
 - [2020SpringCloud项目实战](2020/SpringCloud项目实战.md)
 - [SpringCloud集成eureka注册中心访问权限](https://blog.csdn.net/u010391342/article/details/83086519)
@@ -138,22 +153,32 @@
 - [SpringCloud Alibaba系列(三)Nacos Config配置中心](https://blog.csdn.net/u010391342/article/details/86702084)
 - [spring cloud gateway集成hystrix实战](https://www.jianshu.com/p/81b0059dbd98)
 
+----
+
 ### Spring
+
 - [2020Spring笔记](Spring/Spring笔记.md)
 - [Spring集成dubbo实现服务降级](Spring/Spring集成dubbo集群实现服务降级.md)
 - [SpringMVC生命周期](Spring/SpringMvc生命周期.md)
 - [Spring Aop](Spring/aop.md)
 
+----
+
 ### SpringSecurity/Oauth2
+
 - [Spring security （一）架构框架-Component、Service、Filter分析](https://my.oschina.net/ccwwlx/blog/3114077)
 - [Spring Security（二）--WebSecurityConfigurer配置以及filter顺序](https://my.oschina.net/ccwwlx/blog/3115010)
 - [Spring Security 从入门到进阶系列教程](http://www.spring4all.com/article/428)
 - [SpringBootSecurity详解学习](http://www.spring4all.com/common/user/10161)
 - [Spring Cloud OAuth2.0 微服务中配置 Jwt Token 签名/验证](https://www.cnblogs.com/Irving/p/9430460.html)
-### Elasticsearch
+-----
+
+## Elasticsearch
 
 - [SpringBoot集成Elasticsearch7.x](2020/elasticsearch/es-jdsearch.md)
 - [SpringBoot2.x日志收集搭建 ELK(7.6.2)+(RabbitMq3.7.16+Erlang 21.0.1)](2020/elasticsearch/elk.md)
+
+----
 
 ## 分布式
 - [ELK分布式日志平台搭建](https://blog.csdn.net/u010391342/article/details/82895385)
@@ -162,8 +187,10 @@
 - [基于Zookeeper实现分布式锁和队列](https://blog.csdn.net/u010391342/article/details/82192933)
 - [ElasticSearch本地快速搭建与使用](https://blog.csdn.net/u010391342/article/details/82117389)
 
+----
 
 ## 设计模式
+
 - [高并发下线程安全的单例模式](https://mp.weixin.qq.com/s/_p_Bp31wXG7tAnD78fkRrw)
 - [创建型模式](2019/创建型模式.md)
 - [结构型模式](2019/结构型模式.md)
