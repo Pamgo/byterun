@@ -3,7 +3,7 @@
 - 笔记属于个人学习总结笔记以及好文收集
 <!-- [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-924715723-yellowgreen.svg)](https://jq.qq.com/?_wv=1027&k=5PIRvFq) -->
 [![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://www.baidu.com)
-[![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://www.baidu.com)
+[![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://github.com/Pamgo)
 
 ## pp❤️yy(泰安小孙艺珍)
 
@@ -18,21 +18,19 @@
 - 个人博客：[访问](https://pamgo.github.io/byterun)
 
 ## 开源小项目
-
 - [weiyunpan](https://github.com/Pamgo/weiyunpan):   微云盘，高仿百度云；使用技术jdbc/servlet/jquery    MVC三层架构；同时封装了大量通用工具（已不维护）
 - [vshop](https://github.com/Pamgo/vshop):   无限极分销系统（dev)（已不维护）
 - [gostudy](https://github.com/Pamgo/gostudy):  go语言学习
 - [es/elk](https://github.com/Pamgo/sb-elasticsearch-demo.git): es/elk+rabbitmq日志收集
-
+----
 ## 小工具
 
 - [Protostuff序列化和反序列化](2019/Protostuff序列化和反序列化.md)
-
+----
 ## RabbitMQ
-
 - [RabbitMQ架构](rabbitmq/概念.md)
 - [RabbitMQ死信队列处理超时未支付的订单](https://mp.weixin.qq.com/s?__biz=MzI5MzkwMzQ0Mg==&mid=2247483951&idx=1&sn=ad8e404d8187f8de4cc071f9904f453a&chksm=ec6a4f12db1dc604e18184f4d31c65709505fe89e9778d10fda3953d29a210497b87790fa63e&mpshare=1&scene=23&srcid=&sharer_sharetime=1564887486289&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
-
+----
 ## Redis
 ### Redis笔记
 - [Redis配置文件说明](2020/redis/redis配置文件说明.md)
@@ -46,18 +44,16 @@
 - [redis-lua语法](2020/redis/redis-lua语法.md)
 - [redis-lua脚本使用](2020/redis/redis-lua脚本使用.md)
 - [redis+lua实现黑客防刷攻击](2020/redis/redis+lua实现黑客防刷攻击.md)
-
+----
 #### 微博解剖redis - hash
 - [redis的hash数据结构](2020/redis/redis的hash数据结构.md)
 - [京东双11购物车](2020/redis/京东双11购物车.md)
 - [SpringBoot+Redis+Cookies实现高并发的购物车](2020/redis/SpringBoot+Redis+Cookies实现高并发的购物车.md)
 - [淘宝短链接如何设计](2020/redis/淘宝短链接如何设计.md)
 - [redis解决了分布式系统的session一致性问题](2020/redis/redis解决了分布式系统的session一致性问题.md)
-
 ----
 
 #### 微博解剖redis - set
-
 - [redis-set入门](2020/redis/redis-set入门.md)
 - [基于redis淘宝评价黑名单校验器](2020/redis/基于redis淘宝评价黑名单校验器.md)
 - [京东京豆抽奖实战](2020/redis/京东京豆抽奖实战.md)
@@ -70,7 +66,6 @@
 ----
 
 #### 微博解剖redis - list
-
 - [springboot-redis集群配置](2020/redis/springboot-redis集群配置.md)
 - [list-入门](2020/redis/list-入门.md)
 - [基于redis的微博个人首页](2020/redis/基于redis的微博个人首页.md)
@@ -94,7 +89,6 @@
 ----
 
 ### Redis补充
-
 - [HyperLogLog设计原理论文](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf)
 - [彻底理解Redis持久化](https://mp.weixin.qq.com/s?__biz=MzI4NjExMDA4NQ==&mid=2648452064&idx=1&sn=bc0b05c1fb43baf372fa8be41645a694&chksm=f3c9730ac4befa1c1ac4464f0563baf9b1fc8057a4de825195e5d631e7a2de91cd64d41dedbb&mpshare=1&scene=23&srcid=0325HYv5DeOHIzpnEVd4vuim&sharer_sharetime=1585092974551&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [学 Redis ，至少要看看这篇！7000 字小结](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247484717&idx=1&sn=258a55763b511907653f6f0aa4b4417d&chksm=f9f51ec9ce8297df4425bff2093eeeffab2445d1ba1806174a5f80730d1e6bde5e39c4ef72a1&mpshare=1&scene=23&srcid=0819zAFnbhIpEMUlRpaFLDVW&sharer_sharetime=1566218226741&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
@@ -106,7 +100,6 @@
 ----
 
 ## JAVA 
-
 - [深入理解JVM](2019/深入理解JVM.md)
 - [jvm监控命令](JVM/jvm监控命令.md)
 - [(深入理解JUC)什么是AQS队列同步器](https://blog.csdn.net/u010391342/article/details/88657920)
@@ -117,7 +110,7 @@
 - [(深入理解JUC)ThreadLocal源码](https://blog.qinxuewu.club/2019/03/28/java/shen-ru-li-jie-threadlocal-yuan-ma)
 - [(深入理解JUC)ConcurrentLinkedQueue源码](https://blog.qinxuewu.club/2019/03/29/java/shen-ru-li-jie-concurrentlinkedqueue-yuan-ma)
 - [volatile的内存语义](https://blog.qinxuewu.club/2019/04/05/java/volatile-de-nei-cun-yu-yi)
-
+----
 ### JDK8方法讲解
 - [Map 的 getOrDefault()，putIfAbsent() 和 computeIfAbsent() 三个方法](https://segmentfault.com/a/1190000018276448)
 - [ConcurrentHashMap源码解析 JDK8](https://www.cnblogs.com/hello-shf/p/12183263.html)
@@ -127,7 +120,6 @@
 ## Spring知识体
 
 ### SpringBoot
-
 - [2020SprinBoot最新笔记](2020/SpringBoot笔记.md)
 - [SpringBoot2集成Sharding-JDBC实现分库分表](2019/SpringBoot2集成Sharding-JDBC实现分库分表.md)
 - [SpringBoot自定义一个starter](2019/SpringBoot自定义一个starter.md  )
@@ -138,7 +130,6 @@
 - [如何优雅关闭 Spring Boot 应用](https://mp.weixin.qq.com/s/l9nSknaB9i_5cCNT-mbnsw?tdsourcetag=s_pcqq_aiomsg)
 - [Spring Boot使用log4j2](https://mp.weixin.qq.com/s/v0kbYtgT3mhK3ffN_Sekfw)
 - [Springboot加载自定义yml文件配置的方法](https://blog.csdn.net/u010922732/article/details/91048606)
-
 ----
 
 ### SpringCloud
@@ -152,11 +143,9 @@
 - [SpringCloud Alibaba系列(二)Sentinel应用的限流管理](https://blog.csdn.net/u010391342/article/details/86678637)
 - [SpringCloud Alibaba系列(三)Nacos Config配置中心](https://blog.csdn.net/u010391342/article/details/86702084)
 - [spring cloud gateway集成hystrix实战](https://www.jianshu.com/p/81b0059dbd98)
-
 ----
 
 ### Spring
-
 - [2020Spring笔记](Spring/Spring笔记.md)
 - [Spring集成dubbo实现服务降级](Spring/Spring集成dubbo集群实现服务降级.md)
 - [SpringMVC生命周期](Spring/SpringMvc生命周期.md)
@@ -165,7 +154,6 @@
 ----
 
 ### SpringSecurity/Oauth2
-
 - [Spring security （一）架构框架-Component、Service、Filter分析](https://my.oschina.net/ccwwlx/blog/3114077)
 - [Spring Security（二）--WebSecurityConfigurer配置以及filter顺序](https://my.oschina.net/ccwwlx/blog/3115010)
 - [Spring Security 从入门到进阶系列教程](http://www.spring4all.com/article/428)
@@ -174,10 +162,8 @@
 -----
 
 ## Elasticsearch
-
 - [SpringBoot集成Elasticsearch7.x](2020/elasticsearch/es-jdsearch.md)
 - [SpringBoot2.x日志收集搭建 ELK(7.6.2)+(RabbitMq3.7.16+Erlang 21.0.1)](2020/elasticsearch/elk.md)
-
 ----
 
 ## 分布式
