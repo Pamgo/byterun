@@ -30,6 +30,7 @@
 ## RabbitMQ
 - [RabbitMQ架构](rabbitmq/概念.md)
 - [RabbitMQ死信队列处理超时未支付的订单](https://mp.weixin.qq.com/s?__biz=MzI5MzkwMzQ0Mg==&mid=2247483951&idx=1&sn=ad8e404d8187f8de4cc071f9904f453a&chksm=ec6a4f12db1dc604e18184f4d31c65709505fe89e9778d10fda3953d29a210497b87790fa63e&mpshare=1&scene=23&srcid=&sharer_sharetime=1564887486289&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
+- [RabbitMQ实现消息的消费确认，死信队列、延迟重试队列](https://blog.csdn.net/LittleBlackyoyoyo/article/details/94165862)
 ----
 ## Redis
 ### Redis笔记
