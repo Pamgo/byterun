@@ -131,6 +131,7 @@
 - [如何优雅关闭 Spring Boot 应用](https://mp.weixin.qq.com/s/l9nSknaB9i_5cCNT-mbnsw?tdsourcetag=s_pcqq_aiomsg)
 - [Spring Boot使用log4j2](https://mp.weixin.qq.com/s/v0kbYtgT3mhK3ffN_Sekfw)
 - [Springboot加载自定义yml文件配置的方法](https://blog.csdn.net/u010922732/article/details/91048606)
+- [Spring Boot 和 Spring Cloud 应用内存如何管理](http://www.spring4all.com/article/20224)
 ----
 
 ### SpringCloud
