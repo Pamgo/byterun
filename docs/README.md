@@ -161,6 +161,7 @@
 - [Spring Security 从入门到进阶系列教程](http://www.spring4all.com/article/428)
 - [SpringBootSecurity详解学习](http://www.spring4all.com/common/user/10161)
 - [Spring Cloud OAuth2.0 微服务中配置 Jwt Token 签名/验证](https://www.cnblogs.com/Irving/p/9430460.html)
+- [手把手教你定制 Spring Security 中的表单登录](https://mp.weixin.qq.com/s?__biz=MzI1NDY0MTkzNQ==&mid=2247488138&idx=1&sn=25d18a61a14e4e6316537b6d45e43dd4&chksm=e9c340eadeb4c9fc4950a363e8e85f5c1d1436dbffa972b965cc92b537973a28657c3a159cea&mpshare=1&scene=23&srcid=&sharer_sharetime=1585531728590&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 -----
 
 ## Elasticsearch
