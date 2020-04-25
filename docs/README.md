@@ -169,10 +169,11 @@
 
 ## Elasticsearch
 - [SpringBoot集成Elasticsearch7.x](2020/elasticsearch/es-jdsearch.md)
-- [SpringBoot2.x日志收集搭建 ELK(7.6.2)+(RabbitMq3.7.16+Erlang 21.0.1)](2020/elasticsearch/elk.md)
-----
 
-### 分库分表
+- [SpringBoot2.x日志收集搭建 ELK(7.6.2)+(RabbitMq3.7.16+Erlang 21.0.1)](2020/elasticsearch/elk.md)
+
+  
+## 分库分表
 
 * [mycat配置详解](2020/mycat/mycat配置详解.md)
 
