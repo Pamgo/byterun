@@ -218,6 +218,12 @@
 - [实用的 Nginx 配置生成工具](https://nginxconfig.io/)
 - [除了负载均衡，Nginx 能做的](https://mp.weixin.qq.com/s?__biz=MzUxOTc4NjEyMw==&mid=2247485997&idx=1&sn=a9b97051f93950b8c55f01f2dd9e9559&chksm=f9f511c9ce8298dffd3e9da855bb0b27f91893f53c0f37f4fe66a51618fb610751efd4f8239c&mpshare=1&scene=23&srcid=0320q8KAxJU8F8sE6xda6Wds&sharer_sharetime=1584665489994&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [lua Nginx文档查询信息](https://moonbingbing.gitbooks.io/openresty-best-practices/openresty/inline_var.html)
+## 前端知识
+
+* [es6特性](2020/vue/es6/es特性.md)
+
+* [vue基础学习](2020/vue/vue/vue学习.md)
+
 ## 知识点总结
 - [多线程和JVM知识总结](2019/多线程和JVM知识总结.md)
 - [JAVA核心技术36讲笔记](2019/JAVA核心技术36讲.md)
