@@ -105,16 +105,28 @@ slave-serve-stale-data yes
 #作为从服务器，默认情况下是只读的（yes），可以修改成NO，用于写（不建议）。
 slave-read-only yes
 
-#是否使用socket方式复制数据。目前redis复制提供两种方式，disk和socket。如果新的slave连上来或者重连的slave无法部分同步，就会执行全量同步，master会生成rdb文件。有2种方式：disk方式是master创建一个新的进程把rdb文件保存到磁盘，再把磁盘上的rdb文件传递给slave。socket是master创建一个新的进程，直接把rdb文件以socket的方式发给slave。disk方式的时候，当一个rdb保存的过程中，多个slave都能共享这个rdb文件。socket的方式就的一个个slave顺序复制。在磁盘速度缓慢，网速快的情况下推荐用socket方式。
+#master 在内存中直接创建 RDB，然后发送给 slave，不会在自己本地落地磁盘了。只需要在配置文件中开启 
+#repl-diskless-sync yes 即可
+#是否使用socket方式复制数据。目前redis复制提供两种方式，disk和socket。
+#如果新的slave连上来或者重连的slave无法部分同步，就会执行全量同步，master会生成rdb文件。
+#有2种方式：disk方式是master创建一个新的进程把rdb文件保存到磁盘，再把磁盘上的rdb文件传递给slave。
+#socket是master创建一个新的进程，直接把rdb文件以socket的方式发给slave。disk方式的时候，
+#当一个rdb保存的过程中，多个slave都能共享这个rdb文件。
+#socket的方式就的一个个slave顺序复制。在磁盘速度缓慢，网速快的情况下推荐用socket方式。
 repl-diskless-sync no
 
-#diskless复制的延迟时间，防止设置为0。一旦复制开始，节点不会再接收新slave的复制请求直到下一个rdb传输。所以最好等待一段时间，等更多的slave连上来。
+#等待 5s 后再开始复制，因为要等更多 slave 重新连接过来
+#diskless复制的延迟时间，防止设置为0。一旦复制开始，节点不会再接收新slave的复制请求直到下一个rdb传输。
+#所以最好等待一段时间，等更多的slave连上来。
 repl-diskless-sync-delay 5
 
 #slave根据指定的时间间隔向服务器发送ping请求。时间间隔可以通过 repl_ping_slave_period 来设置，默认10秒。
 # repl-ping-slave-period 10
 
-#复制连接超时时间。master和slave都有超时时间的设置。master检测到slave上次发送的时间超过repl-timeout，即认为slave离线，清除该slave信息。slave检测到上次和master交互的时间超过repl-timeout，则认为master离线。需要注意的是repl-timeout需要设置一个比repl-ping-slave-period更大的值，不然会经常检测到超时。
+#复制连接超时时间。master和slave都有超时时间的设置。
+#master检测到slave上次发送的时间超过repl-timeout，即认为slave离线，清除该slave信息。
+#slave检测到上次和master交互的时间超过repl-timeout，则认为master离线。
+#需要注意的是repl-timeout需要设置一个比repl-ping-slave-period更大的值，不然会经常检测到超时。
 # repl-timeout 60
 
 #是否禁止复制tcp链接的tcp nodelay参数，可传递yes或者no。默认是no，即使用tcp nodelay。如果master设置了yes来禁止tcp nodelay设置，在把数据复制给slave的时候，会减少包的数量和更小的网络带宽。但是这也可能带来数据的延迟。默认我们推荐更小的延迟，但是在数据量传输很大的场景下，建议选择yes。
@@ -191,48 +203,69 @@ auto-aof-rewrite-percentage 100
 #设置允许重写的最小aof文件大小，避免了达到约定百分比但尺寸仍然很小的情况还要重写
 auto-aof-rewrite-min-size 64mb
 
-#aof文件可能在尾部是不完整的，当redis启动的时候，aof文件的数据被载入内存。重启可能发生在redis所在的主机操作系统宕机后，尤其在ext4文件系统没有加上data=ordered选项（redis宕机或者异常终止不会造成尾部不完整现象。）出现这种现象，可以选择让redis退出，或者导入尽可能多的数据。如果选择的是yes，当截断的aof文件被导入的时候，会自动发布一个log给客户端然后load。如果是no，用户必须手动redis-check-aof修复AOF文件才可以。
+#aof文件可能在尾部是不完整的，当redis启动的时候，aof文件的数据被载入内存。
+#重启可能发生在redis所在的主机操作系统宕机后，
+#尤其在ext4文件系统没有加上data=ordered选项（redis宕机或者异常终止不会造成尾部不完整现象。）出现这种现象，
+#可以选择让redis退出，或者导入尽可能多的数据。如果选择的是yes，
+#当截断的aof文件被导入的时候，会自动发布一个log给客户端然后load。
+#如果是no，用户必须手动redis-check-aof修复AOF文件才可以。
 aof-load-truncated yes
 
 ################################ LUA SCRIPTING ###############################
-# 如果达到最大时间限制（毫秒），redis会记个log，然后返回error。当一个脚本超过了最大时限。只有SCRIPT KILL和SHUTDOWN NOSAVE可以用。第一个可以杀没有调write命令的东西。要是已经调用了write，只能用第二个命令杀。
+# 如果达到最大时间限制（毫秒），redis会记个log，然后返回error。当一个脚本超过了最大时限。
+#只有SCRIPT KILL和SHUTDOWN NOSAVE可以用。第一个可以杀没有调write命令的东西。
+#要是已经调用了write，只能用第二个命令杀。
 lua-time-limit 5000
 
 ################################ REDIS CLUSTER ###############################
 #集群开关，默认是不开启集群模式。
 # cluster-enabled yes
 
-#集群配置文件的名称，每个节点都有一个集群相关的配置文件，持久化保存集群的信息。这个文件并不需要手动配置，这个配置文件有Redis生成并更新，每个Redis集群节点需要一个单独的配置文件，请确保与实例运行的系统中配置文件名称不冲突
+#集群配置文件的名称，每个节点都有一个集群相关的配置文件，持久化保存集群的信息。
+#这个文件并不需要手动配置，这个配置文件有Redis生成并更新，每个Redis集群节点需要一个单独的配置文件，
+#请确保与实例运行的系统中配置文件名称不冲突
 # cluster-config-file nodes-6379.conf
 
 #节点互连超时的阀值。集群节点超时毫秒数
 # cluster-node-timeout 15000
 
-#在进行故障转移的时候，全部slave都会请求申请为master，但是有些slave可能与master断开连接一段时间了，导致数据过于陈旧，这样的slave不应该被提升为master。该参数就是用来判断slave节点与master断线的时间是否过长。判断方法是：
+#在进行故障转移的时候，全部slave都会请求申请为master，但是有些slave可能与master断开连接一段时间了，
+#导致数据过于陈旧，这样的slave不应该被提升为master。
+#该参数就是用来判断slave节点与master断线的时间是否过长。判断方法是：
 #比较slave断开连接的时间和(node-timeout * slave-validity-factor) + repl-ping-slave-period
-#如果节点超时时间为三十秒, 并且slave-validity-factor为10,假设默认的repl-ping-slave-period是10秒，即如果超过310秒slave将不会尝试进行故障转移 
+#如果节点超时时间为三十秒, 并且slave-validity-factor为10,
+#假设默认的repl-ping-slave-period是10秒，即如果超过310秒slave将不会尝试进行故障转移 
 # cluster-slave-validity-factor 10
 
-#master的slave数量大于该值，slave才能迁移到其他孤立master上，如这个参数若被设为2，那么只有当一个主节点拥有2 个可工作的从节点时，它的一个从节点会尝试迁移。
+#master的slave数量大于该值，slave才能迁移到其他孤立master上，如这个参数若被设为2，
+#那么只有当一个主节点拥有2 个可工作的从节点时，它的一个从节点会尝试迁移。
 # cluster-migration-barrier 1
 
-#默认情况下，集群全部的slot有节点负责，集群状态才为ok，才能提供服务。设置为no，可以在slot没有全部分配的时候提供服务。不建议打开该配置，这样会造成分区的时候，小分区的master一直在接受写请求，而造成很长时间数据不一致。
+#默认情况下，集群全部的slot有节点负责，集群状态才为ok，才能提供服务。
+#设置为no，可以在slot没有全部分配的时候提供服务。不建议打开该配置，这样会造成分区的时候，
+#小分区的master一直在接受写请求，而造成很长时间数据不一致。
 # cluster-require-full-coverage yes
 
 ################################## SLOW LOG ###################################
-###slog log是用来记录redis运行中执行比较慢的命令耗时。当命令的执行超过了指定时间，就记录在slow log中，slog log保存在内存中，所以没有IO操作。
-#执行时间比slowlog-log-slower-than大的请求记录到slowlog里面，单位是微秒，所以1000000就是1秒。注意，负数时间会禁用慢查询日志，而0则会强制记录所有命令。
+###slog log是用来记录redis运行中执行比较慢的命令耗时。
+#当命令的执行超过了指定时间，就记录在slow log中，slog log保存在内存中，所以没有IO操作。
+#执行时间比slowlog-log-slower-than大的请求记录到slowlog里面，单位是微秒，所以1000000就是1秒。
+#注意，负数时间会禁用慢查询日志，而0则会强制记录所有命令。
 slowlog-log-slower-than 10000
 
-#慢查询日志长度。当一个新的命令被写进日志的时候，最老的那个记录会被删掉。这个长度没有限制。只要有足够的内存就行。你可以通过 SLOWLOG RESET 来释放内存。
+#慢查询日志长度。当一个新的命令被写进日志的时候，最老的那个记录会被删掉。这个长度没有限制。
+#只要有足够的内存就行。你可以通过 SLOWLOG RESET 来释放内存。
 slowlog-max-len 128
 
 ################################ LATENCY MONITOR ##############################
-#延迟监控功能是用来监控redis中执行比较缓慢的一些操作，用LATENCY打印redis实例在跑命令时的耗时图表。只记录大于等于下边设置的值的操作。0的话，就是关闭监视。默认延迟监控功能是关闭的，如果你需要打开，也可以通过CONFIG SET命令动态设置。
+#延迟监控功能是用来监控redis中执行比较缓慢的一些操作，用LATENCY打印redis实例在跑命令时的耗时图表。
+#只记录大于等于下边设置的值的操作。0的话，就是关闭监视。默认延迟监控功能是关闭的，如果你需要打开，
+#也可以通过CONFIG SET命令动态设置。
 latency-monitor-threshold 0
 
 ############################# EVENT NOTIFICATION ##############################
-#键空间通知使得客户端可以通过订阅频道或模式，来接收那些以某种方式改动了 Redis 数据集的事件。因为开启键空间通知功能需要消耗一些 CPU ，所以在默认配置下，该功能处于关闭状态。
+#键空间通知使得客户端可以通过订阅频道或模式，来接收那些以某种方式改动了 Redis 数据集的事件。
+#因为开启键空间通知功能需要消耗一些 CPU ，所以在默认配置下，该功能处于关闭状态。
 #notify-keyspace-events 的参数可以是以下字符的任意组合，它指定了服务器该发送哪些类型的通知：
 ##K 键空间通知，所有通知以 __keyspace@__ 为前缀
 ##E 键事件通知，所有通知以 __keyevent@__ 为前缀
@@ -268,18 +301,26 @@ zset-max-ziplist-entries 128
 #value大小小于等于zset-max-ziplist-value用ziplist，大于zset-max-ziplist-value用zset。
 zset-max-ziplist-value 64
 
-#value大小小于等于hll-sparse-max-bytes使用稀疏数据结构（sparse），大于hll-sparse-max-bytes使用稠密的数据结构（dense）。一个比16000大的value是几乎没用的，建议的value大概为3000。如果对CPU要求不高，对空间要求较高的，建议设置到10000左右。
+#value大小小于等于hll-sparse-max-bytes使用稀疏数据结构（sparse），
+#大于hll-sparse-max-bytes使用稠密的数据结构（dense）。
+#一个比16000大的value是几乎没用的，建议的value大概为3000。如果对CPU要求不高，
+#对空间要求较高的，建议设置到10000左右。
 hll-sparse-max-bytes 3000
 
-#Redis将在每100毫秒时使用1毫秒的CPU时间来对redis的hash表进行重新hash，可以降低内存的使用。当你的使用场景中，有非常严格的实时性需要，不能够接受Redis时不时的对请求有2毫秒的延迟的话，把这项配置为no。如果没有这么严格的实时性要求，可以设置为yes，以便能够尽可能快的释放内存。
+#Redis将在每100毫秒时使用1毫秒的CPU时间来对redis的hash表进行重新hash，可以降低内存的使用。
+#当你的使用场景中，有非常严格的实时性需要，不能够接受Redis时不时的对请求有2毫秒的延迟的话，
+#把这项配置为no。如果没有这么严格的实时性要求，可以设置为yes，以便能够尽可能快的释放内存。
 activerehashing yes
 
 ##对客户端输出缓冲进行限制可以强迫那些不从服务器读取数据的客户端断开连接，用来强制关闭传输缓慢的客户端。
 #对于normal client，第一个0表示取消hard limit，第二个0和第三个0表示取消soft limit，normal client默认取消限制，因为如果没有寻问，他们是不会接收数据的。
 client-output-buffer-limit normal 0 0 0
-#对于slave client和MONITER client，如果client-output-buffer一旦超过256mb，又或者超过64mb持续60秒，那么服务器就会立即断开客户端连接。
+#如果在复制期间，内存缓冲区持续消耗超过 64MB，或者一次性超过 256MB，那么停止复制，复制失败
+#对于slave client和MONITER client，
+# 如果client-output-buffer一旦超过256mb，又或者超过64mb持续60秒，那么服务器就会立即断开客户端连接。
 client-output-buffer-limit slave 256mb 64mb 60
-#对于pubsub client，如果client-output-buffer一旦超过32mb，又或者超过8mb持续60秒，那么服务器就会立即断开客户端连接。
+#对于pubsub client，如果client-output-buffer一旦超过32mb，又或者超过8mb持续60秒，
+#那么服务器就会立即断开客户端连接。
 client-output-buffer-limit pubsub 32mb 8mb 60
 
 #redis执行任务的频率为1s除以hz。
