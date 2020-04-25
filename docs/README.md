@@ -169,7 +169,12 @@
 - [SpringBoot2.x日志收集搭建 ELK(7.6.2)+(RabbitMq3.7.16+Erlang 21.0.1)](2020/elasticsearch/elk.md)
 ----
 
+### 分库分表
+
+* [mycat配置详解](2020/mycat/mycat配置详解.md)
+
 ## 分布式
+
 - [ELK分布式日志平台搭建](https://blog.csdn.net/u010391342/article/details/82895385)
 - [Netty入门(一)HelloWorld程序编写](https://blog.csdn.net/u010391342/article/details/83011198)
 - [Netty入门(二)TCP粘包与拆包问题处理](https://blog.csdn.net/u010391342/article/details/83011294)
