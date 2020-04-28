@@ -230,8 +230,8 @@
 ## 前端知识
 
 * [es6特性](2020/vue/es6/es特性.md)
-
 * [vue基础学习](2020/vue/vue/vue学习.md)
+* [babel基础](2020/vue/babel.md)
 
 ## 知识点总结
 - [多线程和JVM知识总结](2019/多线程和JVM知识总结.md)
