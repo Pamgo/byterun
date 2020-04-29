@@ -255,7 +255,7 @@
 - [pandownload百度网盘不限速下载](http://pandownload.com/index.html)
 - [IntelliJ IDEA 超实用技巧](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjUwMg==&mid=2247486915&idx=1&sn=a71b27f9d0708101541381e5cf44cb88&chksm=a6da87aa91ad0ebcf53f064aad76ec194eb412c833110b986205caa51d7ccc30549e3206537c&mpshare=1&scene=23&srcid=&sharer_sharetime=1572348046126&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [一致性哈希算法(分库分表，负载均衡，实践分享)](https://blog.csdn.net/weixin_34216036/article/details/91613626?tdsourcetag=s_pctim_aiomsg)
-
+- [数据库链接池优化以及线程池说明](https://mp.weixin.qq.com/s?__biz=MzAxMjEwMzQ5MA==&mid=2448890186&idx=2&sn=989c2224a5ccd5bfcbad6c771996052a&chksm=8fb54367b8c2ca7183bf70f30f4820b9fed8519d1388e7bc5c4c9ce3dfc669ece8bd9962049d&mpshare=1&scene=23&srcid=&sharer_sharetime=1588139512393&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
   
 
 ## 在线工具
