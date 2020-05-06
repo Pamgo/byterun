@@ -5,7 +5,7 @@
 [![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://www.baidu.com)
 [![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://github.com/Pamgo)
 
-<font color='red'>tips:</font> 知识不是重点，重点在于设计+运用
+<font color='red'>tips:</font> 知识不是重点，重点在于设计+合理的运用
 ## pp❤️yy
 
 - 发泄地:[by](https://pamgo.github.io/byterun)
