@@ -181,7 +181,7 @@
 ## 分库分表
 
 * [mycat配置详解](2020/mycat/mycat配置详解.md)
-
+* [sharding-jdbc](2020/sharding-jdbc.md)
 ## 分布式
 
 - [ELK分布式日志平台搭建](https://blog.csdn.net/u010391342/article/details/82895385)
