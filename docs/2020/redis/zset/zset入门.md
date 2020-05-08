@@ -11,7 +11,8 @@ zset 最经典的应用场景就是排行榜。
 
 将一个或多个member元素及其score值加入到有序集key当中。
 
-##ZRANGE
+## ZRANGE
+
 `ZRANGE key start stop [WITHSCORES]`
 
 返回有序集key中，指定区间内的成员。
@@ -32,8 +33,9 @@ zset 最经典的应用场景就是排行榜。
 (1.21s)
 
 ```
-##ZREM
-ZREM key member [member ...]
+## ZREM
+
+`ZREM key member [member ...]`
 移除有序集key中的一个或多个成员，不存在的成员将被忽略。
 ``` 
 案例：创业公司 tom离职了
@@ -73,8 +75,8 @@ ZREM key member [member ...]
 (integer) 3
 
 ```
-##ZCOUNT
-ZCOUNT key min max
+## ZCOUNT
+`ZCOUNT key min max`
 返回有序集key中，score值在min和max之间(默认包括score值等于min或max)的成员。
 
 ```powershell
@@ -91,7 +93,7 @@ ZCOUNT key min max
 39.100.196.99:6379> ZCOUNT salary 2000 6000
 (integer) 3
 ```
-##ZSCORE
+## ZSCORE
 `ZSCORE key member`
 
 返回有序集key中，成员member的score值。
