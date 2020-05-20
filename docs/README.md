@@ -275,6 +275,7 @@
 
 * [在线工具](https://tool.lu/)
 * [Spring Boot 的 banner美化](https://mp.weixin.qq.com/s/LevtlLPchjOQOm8f7gYRIA)
+* [alibaba-nacos](https://nacos.io/zh-cn/index.html)
 
 ## 友情链接
 
