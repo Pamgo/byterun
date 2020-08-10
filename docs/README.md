@@ -256,6 +256,7 @@
 - [超详细java中的ClassLoader详解](https://blog.csdn.net/briblue/article/details/54973413)
 - [高并发和分布式中的幂等](https://www.jianshu.com/p/cea3675a590b)
 - [优雅使用try-catch,springboot篇](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247489136&idx=1&sn=ff1bd607683879f78c101ac666d9d625&chksm=eaded230dda95b2601becb344024142697e2c4f76ce94b89801d2389b2d038b28ea11cf36c32&mpshare=1&scene=23&srcid=&sharer_sharetime=1590457060121&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
+- [Java开源框架中的设计模式以及应用场景](https://juejin.im/post/6859160350692999181#heading-5)
 ## 随笔
 - [简易版限流算法](2020/notes/bucketlimit.md)
 - [docsify一个神奇的文档生成工具](其它/docsify.md)
