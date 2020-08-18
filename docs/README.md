@@ -131,6 +131,7 @@
 - [ConcurrentHashMap源码解析 JDK8](https://www.cnblogs.com/hello-shf/p/12183263.html)
 - [HashMap 源码赏析 JDK8](https://www.cnblogs.com/hello-shf/p/12168181.html)
 - [基于跳跃表的 ConcurrentSkipListMap 内部实现（Java 8）](https://blog.csdn.net/weixin_30301183/article/details/95266861?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+- [JDK1.8的Lambda、Stream和日期的使用详解](https://mp.weixin.qq.com/s/84TSGjui1pT4cL1o8vNsTw)
 
 ## Spring知识体
 
