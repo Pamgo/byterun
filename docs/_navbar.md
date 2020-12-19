@@ -1,5 +1,5 @@
 * 导航栏
   * [快速开始](README.md)
-  * [简单微信笔记小程序](https://github.com/a870439570/blog-sharon)
-  * [SpringBoot版Mongodb工具](https://github.com/a870439570/Mongodb-WeAdmin)
-  * [SpringBoot版本的JVM监控](https://github.com/a870439570/boot-actuator)
+  * [自定Redisson注解@MyCacheable](https://github.com/Pamgo/my-redisson-parent)
+  * [es/elk+rabbitmq日志收集](https://github.com/Pamgo/sb-elasticsearch-demo)
+  * [redis体系Demo](https://github.com/Pamgo/agan-redis)
