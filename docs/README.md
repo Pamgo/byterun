@@ -6,7 +6,7 @@
 [![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://github.com/Pamgo)
 
 <font color='red'>tips:</font> 知识不是重点，重点在于设计+合理的运用
-## ❤️
+## ❤️ 乐观、平静、思考
 
 ## 关于
 
