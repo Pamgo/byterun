@@ -112,17 +112,17 @@
     private void pushFollower(int userId,int postId){
         SetOperations<String, Integer> opsForSet = redisTemplate.opsForSet();
 
-        //读取粉丝集合
-        String followerkey=Constants.CACHE_KEY_FOLLOWER+userId;
-        //千万不能取set集合的所有数据，如果数据量大的话，会卡死
-        // Set<Integer> sets= opsForSet.members(followerkey);
-        Cursor<Integer> cursor = opsForSet.scan(followerkey, ScanOptions.NONE);
-        try{
-            while (cursor.hasNext()){
-                //拿出粉丝的userid
-                Integer object = cursor.next();
-                String key= Constants.CACHE_MY_ATTENTION_BOX_LIST_KEY+object;
-                this.redisTemplate.opsForList().leftPush(key,postId);
+          //读取粉丝集合
+          String followerkey=Constants.CACHE_KEY_FOLLOWER+userId;
+          //千万不能取set集合的所有数据，如果数据量大的话，会卡死
+          // Set<Integer> sets= opsForSet.members(followerkey);
+          Cursor<Integer> cursor = opsForSet.scan(followerkey, ScanOptions.NONE);
+          try{
+              while (cursor.hasNext()){
+                  //拿出粉丝的userid
+                  Integer object = cursor.next();
+                  String key= Constants.CACHE_MY_ATTENTION_BOX_LIST_KEY+object;
+                  this.redisTemplate.opsForList().leftPush(key,postId);
 
             }
         }catch (Exception ex){

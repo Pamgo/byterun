@@ -5,7 +5,7 @@
 [![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://www.baidu.com)
 [![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://www.baidu.com)
 
-## ❤️
+## ❤️ 乐观、平静、思考
 
 ## 关于
 
