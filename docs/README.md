@@ -28,6 +28,7 @@
 ----
 ## OpenResty
 - [openresty](http://openresty.org/cn/)
+- [OpenResty 最佳实践](https://moonbingbing.gitbooks.io/openresty-best-practices/content/)
 ### OpenResty module
 - [模版解析lua-resty-template](https://codechina.csdn.net/mirrors/bungle/lua-resty-template)
 - [http请求模块lua-resty-http](https://codechina.csdn.net/mirrors/pintsized/lua-resty-http?utm_source=csdn_github_accelerator)
