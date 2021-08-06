@@ -30,6 +30,8 @@
 - [openresty](http://openresty.org/cn/)
 ### OpenResty module
 - [模版解析lua-resty-template](https://codechina.csdn.net/mirrors/bungle/lua-resty-template)
+### 文章
+- [浅谈nginx + lua在安全中的一些应用](https://zhuanlan.zhihu.com/p/21362834)
 ----
 ## RabbitMQ
 - [RabbitMQ架构](rabbitmq/概念.md)
