@@ -207,6 +207,7 @@
 * [mycat配置详解](2020/mycat/mycat配置详解.md)
 * [sharding-jdbc](2020/sharding-jdbc.md)
 * [MySQL 主从配置和读写分离](https://mp.weixin.qq.com/s/OTrDU71WIrGg_b4MCeShCg)
+* [数据库表设计（邻接表、路径枚举、嵌套集、闭包表）](http://blog.sina.com.cn/s/blog_95b5eb8c0102y5sw.html)
 ## 分布式
 
 - [ELK分布式日志平台搭建](https://blog.csdn.net/u010391342/article/details/82895385)
