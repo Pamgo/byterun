@@ -299,6 +299,7 @@
 * [logicbig-Logicbig quick, simple, easy and comprehensive tutorials](https://www.logicbig.com/tutorials.html)
 ## 友情链接
 
+- [Java 全栈知识体系](https://www.pdai.tech/)
 - [爱上编程](http://coderluo.top/)
 - [薛勤的博客](https://www.cnblogs.com/yueshutong/)
 - [程序猿DD](http://blog.didispace.com/)
