@@ -278,6 +278,7 @@
 - [优雅使用try-catch,springboot篇](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTQ1NQ==&mid=2247489136&idx=1&sn=ff1bd607683879f78c101ac666d9d625&chksm=eaded230dda95b2601becb344024142697e2c4f76ce94b89801d2389b2d038b28ea11cf36c32&mpshare=1&scene=23&srcid=&sharer_sharetime=1590457060121&sharer_shareid=a4e76d2d8b5d3a51580d30633f92086f#rd)
 - [Java开源框架中的设计模式以及应用场景](https://juejin.im/post/6859160350692999181#heading-5)
 ## 随笔
+- [非递归方式实现树形](leetcode/非递归方式实现树.md)
 - [简易版限流算法](2020/notes/bucketlimit.md)
 - [docsify一个神奇的文档生成工具](其它/docsify.md)
 - [Linux服务命令](其它/Linxu服务命令.md)
